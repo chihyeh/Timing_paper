@@ -1,1 +1,0 @@
-# Timing_paper
