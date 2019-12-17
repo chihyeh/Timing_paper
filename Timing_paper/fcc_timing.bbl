@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Linssen:1425915}
+L.~Linssen, A.~Miyamoto, M.~Stanitzki, H.~Weerts,
+  \href{http://cds.cern.ch/record/1425915}{{Physics and Detectors at CLIC: CLIC
+  Conceptual Design Report}}, CERN Yellow Reports: Monographs, CERN, Geneva,
+  2012, comments: 257 p, published as CERN Yellow Report CERN-2012-003.
+\newblock \href {http://dx.doi.org/10.5170/CERN-2012-003}
+  {\path{doi:10.5170/CERN-2012-003}}.
+\newline\urlprefix\url{http://cds.cern.ch/record/1425915}
+
+\bibitem{Behnke:2013xla}
+T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson,
+  M.~Peskin, M.~Stanitzki, N.~Walker, H.~Yamamoto, {The International Linear
+  Collider Technical Design Report - Volume 1: Executive Summary}\href
+  {http://arxiv.org/abs/1306.6327} {\path{arXiv:1306.6327}}.
+
+\bibitem{Benedikt:2206376}
+M.~Benedikt, \href{http://cds.cern.ch/record/2206376}{{The Global Future
+  Circular Colliders Effort}}{CERN-ACC-SLIDES-2016-0016. Presented at P5
+  Workshop on the Future of High Energy Physics, BNL, USA, Dec. 15-18, 2013}.
+\newline\urlprefix\url{http://cds.cern.ch/record/2206376}
+
+\bibitem{Tang:2015qga}
+J.~Tang, et~al., {Concept for a Future Super Proton-Proton Collider} (2015).
+\newblock \href {http://arxiv.org/abs/1507.03224} {\path{arXiv:1507.03224}}.
+
+\bibitem{Ahmed:2019sim}
+Z.~Ahmed, et~al.,
+  \href{https://lss.fnal.gov/archive/2019/conf/fermilab-conf-19-487-di-nd-ppd-scd.pdf}{{New
+  Technologies for Discovery}}, in: {CPAD Instrumentation Frontier Workshop
+  2018: New Technologies for Discovery IV (CPAD 2018) Providence, RI, United
+  States, December 9-11, 2018}, 2019.
+\newblock \href {http://arxiv.org/abs/1908.00194} {\path{arXiv:1908.00194}}.
+\newline\urlprefix\url{https://lss.fnal.gov/archive/2019/conf/fermilab-conf-19-487-di-nd-ppd-scd.pdf}
+
+\bibitem{Cerri:2018rkm}
+O.~Cerri, S.~Xie, C.~Pena, M.~Spiropulu, {Identification of Long-lived Charged
+  Particles using Time-Of-Flight Systems at the Upgraded LHC detectors}, JHEP
+  04 (2019) 037.
+\newblock \href {http://arxiv.org/abs/1807.05453} {\path{arXiv:1807.05453}},
+  \href {http://dx.doi.org/10.1007/JHEP04(2019)037}
+  {\path{doi:10.1007/JHEP04(2019)037}}.
+
+\end{thebibliography}
