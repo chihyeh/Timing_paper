@@ -179,12 +179,6 @@ Physics potential of timing layers for future detectors}
 \author[addDuke]{A.V.~Kotwal}
 \ead{ashutosh.kotwal@duke.edu}
 
-\author[add1]{J.~Proudfoot}
-\ead{proudfoot@anl.gov}
-
-\author[addDuke]{S.~Sen}
-\ead{sourav.sen@duke.edu}
-
 \author[add2]{N.V.~Tran}
 \ead{ntran@fnal.gov}
 
@@ -226,12 +220,78 @@ Fermi National Accelerator Laboratory
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-Such the promising future colliders as the Future Circular Collider(FCC)[1] have been being proposed for exploring the potential of the high energy physics. Meanwhile, the state-of-the-art techniques will be invited for overcoming the dilemma happening to the imminent era of the future colliders, for instance, the approach of using the energy correlation function[2] inspired by the theorists is the one of useful ways that can be applied on tackling the highly-boosted condition showing up in handling distinguishing the different number of the subjets in a fatjet. In this paper, the timing known as the time of flight(TOF), which has been carrier out to be raised as another dimension of applying to do discriminating the different particles in the detector[3], is implemented into our facilities to see whether we can take advantage of using the merits of it to solve the same problem.\\
 
-Speaking of the timing, we can't talk about it without mentioning the benefit of the timing-capable material - silicon. In the future era, caused by the high radiation and pileup, the fast-response with nano-second resolution limited by the TOF and the radiation-tolerated material as silicon should be well-prepared to fight with them. Many collaborations such as Compact Muon Solenoid(CMS) within the Upgrade 2 for High Granularity Calorimeter(HGCAL)[4] are going to make the silicon be their passive material as measuring the energies of the particles . In our studies, since the silicon sensors are installed to be the passive material in our tracker and ECAL, these two of the detectors are obtained as doing our studies.\\
+Future experiments, such as CLIC \cite{Linssen:1425915}, International Linear Collider (ILC) \cite{Behnke:2013xla}, high-energy LHC (HE-LHC),
+future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga} will require high precision measurements of particle and jets 
+at large transverse momenta. 
+The usage of timing information for such experiments  can  provide additional 
+information that can be used to improve particle and jet reconstruction, as well as to deal with background events.
+At this moment, conceptional design reports for these experiments did not fully explore
+the benefits of the time of flight (TOF) measurements with tens-of-picosecond resolutions.
 
-The same detector as our first paper[4] is applied in our studies to be the candidate for the 100TeV pp colliders. Instead of using the method of employing jet substurcture variables as our second paper[5] in distinguishing the different number of the subjets in a large radius jet, we use the timing in different ways approaching to find out the potential of distinguishing different particles/number of subjets in our detector for many future experiments.\\
+\section{Proposal}
 
+A generic design of hadronic (electromagnetic) calorimeters for future particle collision experiments (HE-LHC, FCC, CLIC, ILC etc.) 
+is based on two main characteristics: (1) high-granularity calorimeters with cells ranged from $3\times 3$ mm$^2$ (for ECAL) to $5\times 5$ cm$^2$  (for HCAL) in sizes.
+(2) timing with nanosecond precision that improves background rejection, vertex association, and detection of new particles. 
+According to the CPAD report \cite{Ahmed:2019sim}, a development of “picosecond time resolution” for future calorimeters is one of the critical needs. 
+Presently. high-granularity calorimeters (with >1 millions channels) with tens of picoseconds resolution represent a 
+significant challenge due the large cost.
+
+As a part of the HL-LHC upgrade program, CMS and ATLAS experiments are designing high-precision timing detectors with the time resolution of about 30 ps. 
+They are based on silicon sensors that add an extra ``dimension’’ to event reconstruction. 
+Such timing capabilities are not fully explored for future detectors beyond the HL-LHC upgrade. 
+High-precision timing will be beneficial for new physics searches and b-tagging for all post-LHC experiments. 
+For CLIC and FCC, high-precision time stamping will be essential for background rejection and pile-up mitigation. 
+
+Currently, the baseline designs of the high-granularity ECAL and HCAL of the CLIC/FCC detectors have not been 
+optimized for precision timing in the range of a few tens of picoseconds. 
+The latter is considered as an expensive option for many mullions of channels of these high-granularity detectors. 
+This opens an opportunity to investigate a cost-effective “timing layer” (with the time resolution of smaller than 30 ps) for the post-LHC detectors. 
+This layer will be installed on front of high-granularity calorimeters, covering both the forward and barrel regions.
+
+In this paper we  will investigate physics advantages for timing layers in the front of calorimeters (sometime termed “pre-shower detector”) 
+of the post-LHC experiments. This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
+but will have a sensor technology and readout which is best suited for mip time stamping (not necessarily for energy reconstruction). 
+Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the second is after the last EM layer (but before
+the HCAL). In this paper we will explore this idea using full Monte Carlo simulations. 
+
+\begin{figure}
+\begin{center}
+   \includegraphics[width=0.8\textwidth]{timing_layer.pdf}\hfill
+\end{center}
+\caption{An example of positions of the timing layers for a generic detector. ADD TEXT}
+\label{fig:eff_rad}
+\end{figure}
+
+
+\clearpage
+\section{Single particles} 
+
+
+Before considering the full Geant4 simulation, let us discuss the benefit of the TOF information 
+for identification of separate particles. Fig.~\ref{fig:singleparticles} shows the $3\sigma$ separation from the pion
+mass hypothesis using the same technique as discussed  in \cite{Cerri:2018rkm}. The lines are calculated
+using the following consideration: ADD TEXT 
+ 
+\begin{figure}
+\begin{center}
+   \subfigure[] {
+   \includegraphics[width=0.45\textwidth]{time_flight_length_kion.pdf}
+   }
+      \subfigure[] {
+   \includegraphics[width=0.45\textwidth]{time_flight_length_kion.pdf}\hfill
+   }
+\end{center}
+\caption{
+The $3\sigma$ separation from the pion mass.. ADD TEXT 
+}
+\label{fig:singleparticles}
+\end{figure}
+
+
+
+\clearpage 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%% sections 
@@ -245,12 +305,11 @@ The same detector as our first paper[4] is applied in our studies to be the cand
 %%%%%%%%%%%%%%%%%%%%%% references %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section*{References}
 
-%\bibliographystyle{elsarticle-num}
-%\def\bibname{\Large\bf References}
+\bibliographystyle{elsarticle-num}
+\def\bibname{\Large\bf References}
 %\def\refname{\Large\bf References}
 %\pagestyle{plain}
-%\bibliography{biblio}
-
+\bibliography{biblio}
 
 
 \end{document}
