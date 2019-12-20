@@ -254,7 +254,13 @@ In this paper we  will investigate physics advantages for timing layers in the f
 of the post-LHC experiments. This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
 but will have a sensor technology and readout which is best suited for mip time stamping (not necessarily for energy reconstruction). 
 Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the second is after the last EM layer (but before
-the HCAL). In this paper we will explore this idea using full Monte Carlo simulations. 
+the HCAL). The two layers of the timing detector allows a robust identification of time by correlating the position and timestamps of the particle passing through
+the ECAL.
+
+In this paper we will explore this idea using full Monte Carlo simulations. 
+A schematic representation of the positions of the timing layers for a generic detector geometry is shown in Fig.~\ref{fig:eff_rad}
+
+
 
 \begin{figure}
 \begin{center}
@@ -263,6 +269,38 @@ the HCAL). In this paper we will explore this idea using full Monte Carlo simula
 \caption{An example of positions of the timing layers for a generic detector. ADD TEXT}
 \label{fig:eff_rad}
 \end{figure}
+
+
+The second layer of the timing detector can only be justified if fluctuations of hits times are smaller than  the resolution 
+of the timing layers. In oder to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
+of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information on hits from the ECAL.
+The ECAL is built from a highly segmented silicon-tungsten  with the transverse cell size of $2 \times 2$~cm.
+The ECAL has 30 layers built from tungsten pads with silicon readout,
+corresponding to 35~X$_{0}$. The first 20 layers use tungsten of 3~mm thickness.
+The last ten layers use tungsten layers of
+twice the thickness, and thus have half the  sampling fraction.  
+
+To verify that the time differences between last and first layer of ECAL is sufficiently small, and can be neglected for the timing layers that
+have a timing resolution of the order of 10~ns, a sample of single pions was created with 1 and 10 GeV. The particles were reconstructed in the ECAL calorimeter,
+and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
+Only hits that arrive first were considered.
+Figure~\ref{fig:timediff} shows the time distribution for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
+than 1~GeV, as expected for the distance of about 20~cm between  the last and first layers\footnote{The precision with which the simulations were performed are about 0.2-0.3~ns}. More importantly, the RMS of these distributions are significantly smaller than the 10~ns. 
+Therefore, for the timing layers that have a resolution of the order of 10-20~ns, a single particle crossing the two layers  will be seen a single simultaneous hit,
+thus such hits can be well correlated in time and identified as a single crossing particle.
+ 
+
+\begin{figure}
+\begin{center}
+   \includegraphics[width=0.6\textwidth]{timeECAL_2layers1.pdf}\hfill
+\end{center}
+\caption{The difference between time of hits between the last and first layer of ECAL for single pions with the transverse momentum 1 and 10 GeV. 
+Only first (fastest) hits were considered}
+\label{fig:timediff}
+\end{figure}
+
+
+
 
 
 \clearpage
