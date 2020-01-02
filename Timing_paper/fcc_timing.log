@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  30 DEC 2019 08:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  2 JAN 2020 11:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -764,7 +764,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-) [6]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+[6]
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 43.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 43.
+
+) [7]
 No file fcc_timing.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -774,25 +791,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
 (./fcc_timing.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
+Package rerunfilecheck Info: File `fcc_timing.out' has not changed.
+(rerunfilecheck)             Checksum: 76BA3984289CDB86A2D6FB41AE75D0B7;659.
 
 
-Package rerunfilecheck Warning: File `fcc_timing.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `fcc_timing.out':
-(rerunfilecheck)             Before: 76BA3984289CDB86A2D6FB41AE75D0B7;659
-(rerunfilecheck)             After:  0E0E315B6B9476402438D9A5F47C0F37;719.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
  ) 
 Here is how much of TeX's memory you used:
- 9356 strings out of 492995
- 133787 string characters out of 6132704
- 254532 words of memory out of 5000000
- 12699 multiletter control sequences out of 15000+600000
+ 9357 strings out of 492995
+ 133776 string characters out of 6132704
+ 253532 words of memory out of 5000000
+ 12700 multiletter control sequences out of 15000+600000
  14223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,40p,891b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,40p,892b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -807,10 +821,10 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (6 pages, 233383 bytes).
+Output written on fcc_timing.pdf (7 pages, 235142 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 188 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
