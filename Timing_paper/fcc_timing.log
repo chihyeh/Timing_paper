@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.27)  9 JAN 2020 11:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.27)  9 JAN 2020 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -690,51 +690,153 @@ File: time_flight_length_kion.pdf Graphic file (type pdf)
 <use time_flight_length_kion.pdf>
 Package pdftex.def Info: time_flight_length_kion.pdf used on input line 24.
 (pdftex.def)             Requested size: 247.54149pt x 235.75415pt.
-) [5
+) (./Timing_layers_for_ee_experiments.tex)
+(./Timing_layers_for_FCC_and_jets.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Overfull \hbox (0.12596pt too wide) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/10.95 The two sets of the col-lec-tions of the data in-clud-ing 
+both of the gen-er-a-tor level(truth-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[5
 
 ] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
-               <./time_flight_length_neutron.pdf> <./time_flight_length_kion.pd
-f>] (./fcc_timing.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
- (./fcc_timing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
-Package rerunfilecheck Info: File `fcc_timing.out' has not changed.
-(rerunfilecheck)             Checksum: 1CC1475A4487F2DDD3521120381BA965;159.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
- ) 
+l.10 
+      <./time_flight_length_neutron.pdf> <./time_flight_length_kion.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+LaTeX Warning: Reference `fig:Truth_dR_Dis_5TeV_PT' on page 8 undefined on inpu
+t line 44.
+
+
+LaTeX Warning: Reference `fig:Truth_dR_Dis_5TeV_T' on page 8 undefined on input
+ line 44.
+
+
+LaTeX Warning: Reference `fig:Truth_dR_Dis_40TeV_PT' on page 8 undefined on inp
+ut line 44.
+
+
+LaTeX Warning: Reference `fig:Truth_dR_Dis_40TeV_T' on page 8 undefined on inpu
+t line 44.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+LaTeX Warning: File `/Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_j
+ets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf' not found on input line 50.
+
+
+! Package pdftex.def Error: File `/Users/ms08962476/Timing_paper/Pictures_used_
+for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50    }
+         
+? x
+ 
 Here is how much of TeX's memory you used:
- 9328 strings out of 493488
- 133428 string characters out of 3141325
- 247283 words of memory out of 3000000
- 12430 multiletter control sequences out of 15000+200000
+ 9324 strings out of 493488
+ 133753 string characters out of 3141325
+ 249283 words of memory out of 3000000
+ 12415 multiletter control sequences out of 15000+200000
  14223 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 34i,8n,35p,382b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
-</users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></
-users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-ers/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></user
-s/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></users/r
-eb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></users/reb/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></users/reb/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></users/reb/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></users/reb/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></users/reb/texlive
-/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></users/reb/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (7 pages, 237667 bytes).
+ 34i,8n,35p,1527b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.Cerri:2018rkm} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Chekanov:2016ppq} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Allison2016186} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Ahmed:2019sim} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Tang:2015qga} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Benedikt:2206376} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Behnke:2013xla} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Linssen:1425915} has been referenced but does 
+not exist, replaced by a fixed one
+
+</users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+ers/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></user
+s/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></users/
+reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></users/re
+b/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></users/reb/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></users/reb/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></users/reb/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></users/reb/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></users/reb/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></users/reb/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></users/reb/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on fcc_timing.pdf (7 pages, 248567 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
