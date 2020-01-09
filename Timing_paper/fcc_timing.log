@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  4 JAN 2020 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  9 JAN 2020 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,6 +829,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 57.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 57.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 57.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
 ) [8]
 No file fcc_timing.bbl.
 
@@ -848,8 +862,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
  ) 
 Here is how much of TeX's memory you used:
- 9361 strings out of 492995
- 133823 string characters out of 6132704
+ 9362 strings out of 492995
+ 133834 string characters out of 6132704
  254532 words of memory out of 5000000
  12701 multiletter control sequences out of 15000+600000
  14223 words of font info for 56 fonts, out of 8000000 for 9000
@@ -869,10 +883,10 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (8 pages, 240350 bytes).
+Output written on fcc_timing.pdf (8 pages, 242373 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
