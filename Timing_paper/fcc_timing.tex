@@ -247,11 +247,15 @@ For CLIC and FCC, high-precision time stamping will be essential for background 
 Currently, the baseline designs of the high-granularity ECAL and HCAL of the CLIC/FCC detectors have not been 
 optimized for precision timing in the range of a few tens of picoseconds. 
 The latter is considered as an expensive option for many mullions of channels of these high-granularity detectors. 
-This opens an opportunity to investigate a cost-effective “timing layer” (with the time resolution of smaller than 30 ps) for the post-LHC detectors. 
+This opens an opportunity to investigate a cost-effective “timing layer” (with the time resolution of smaller than 30~ps) for the post-LHC detectors. 
 This layer will be installed on front of high-granularity calorimeters, covering both the forward and barrel regions.
 
-In this paper we  will investigate physics advantages for timing layers in the front of calorimeters (sometime termed “pre-shower detector”) 
-of the post-LHC experiments. This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
+In this paper we  will investigate physics advantages for timing layers in the front of calorimeters  
+of the post-LHC experiments. 
+Typically, thin detectors on front of calorimeters are called ``preshower''. The design goal of such detectors is to count the number of charged
+particles in oder to correct for energy loses. The timing information of ``mips'' ( minimum–ionising particles) is not used for particle identifications. 
+Unlike the standard pre-shower detector, we propose not only count mips, but also reconstruct high-precision timing and the position.
+This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
 but will have a sensor technology and readout which is best suited for mip time stamping (not necessarily for energy reconstruction). 
 Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the second is after the last EM layer (but before
 the HCAL). The two layers of the timing detector allows a robust identification of time by correlating the position and timestamps of the particle passing through
@@ -266,12 +270,12 @@ A schematic representation of the positions of the timing layers for a generic d
 \begin{center}
    \includegraphics[width=0.8\textwidth]{timing_layer.pdf}\hfill
 \end{center}
-\caption{An example of positions of the timing layers for a generic detector. ADD TEXT}
+\caption{An example of positions of the thin timing layers for a generic detector. The thin timing layers  will enclose the electromagnetic calorimeter, allow a reliable reconstruction of the  mip signals with a timing resolution of the order of 10~ps.}
 \label{fig:eff_rad}
 \end{figure}
 
 
-The second layer of the timing detector can only be justified if fluctuations of hits times are smaller than  the resolution 
+The second layer of the timing detector can be justified if fluctuations of hits times are smaller than  the resolution 
 of the timing layers. In oder to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
 of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information on hits from the ECAL.
 The ECAL is built from a highly segmented silicon-tungsten  with the transverse cell size of $2 \times 2$~cm.
@@ -281,11 +285,12 @@ The last ten layers use tungsten layers of
 twice the thickness, and thus have half the  sampling fraction.  
 
 To verify that the time differences between last and first layer of ECAL is sufficiently small, and can be neglected for the timing layers that
-have a timing resolution of the order of 10~ns, a sample of single pions was created with 1 and 10 GeV. The particles were reconstructed in the ECAL calorimeter,
+have a timing resolution of the order of 10~ns, a sample of single pions was created with 1 and 10~GeV momenta. 
+The particles were reconstructed in the ECAL calorimeter,
 and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
 Only hits that arrive first were considered.
 Figure~\ref{fig:timediff} shows the time distribution for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
-than 1~GeV, as expected for the distance of about 20~cm between  the last and first layers\footnote{The precision with which the simulations were performed are about 0.2-0.3~ns}. More importantly, the RMS of these distributions are significantly smaller than the 10~ns. 
+than 1~ps, as expected for the distance of about 20~cm between  the last and first layers\footnote{The precision with which the simulations were performed are about 0.2-0.3~ns}. More importantly, the RMS of these distributions are significantly smaller than the 10~ns. 
 Therefore, for the timing layers that have a resolution of the order of 10-20~ns, a single particle crossing the two layers  will be seen a single simultaneous hit,
 thus such hits can be well correlated in time and identified as a single crossing particle.
  
@@ -297,34 +302,6 @@ thus such hits can be well correlated in time and identified as a single crossin
 \caption{The difference between time of hits between the last and first layer of ECAL for single pions with the transverse momentum 1 and 10 GeV. 
 Only first (fastest) hits were considered}
 \label{fig:timediff}
-\end{figure}
-
-
-
-
-
-\clearpage
-\section{Single particles} 
-
-
-Before considering the full Geant4 simulation, let us discuss the benefit of the TOF information 
-for identification of separate particles. Fig.~\ref{fig:singleparticles} shows the $3\sigma$ separation from the pion
-mass hypothesis using the same technique as discussed  in \cite{Cerri:2018rkm}. The lines are calculated
-using the following consideration: ADD TEXT 
- 
-\begin{figure}
-\begin{center}
-   \subfigure[] {
-   \includegraphics[width=0.45\textwidth]{time_flight_length_kion.pdf}
-   }
-      \subfigure[] {
-   \includegraphics[width=0.45\textwidth]{time_flight_length_kion.pdf}\hfill
-   }
-\end{center}
-\caption{
-The $3\sigma$ separation from the pion mass.. ADD TEXT 
-}
-\label{fig:singleparticles}
 \end{figure}
 
 
