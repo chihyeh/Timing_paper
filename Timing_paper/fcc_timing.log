@@ -1,32 +1,19 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  11 JAN 2020 16:46
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.27)  9 JAN 2020 11:25
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  12 JAN 2020 00:34
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **fcc_timing.tex
 (./fcc_timing.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (./elsarticle.cls
 Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
 \@bls=\dimen102
-(/users/reb/texlive/2012/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/users/reb/texlive/2012/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -40,48 +27,48 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/psnfss/upzd.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/psnfss/upsy.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 \c@tnote=\count88
@@ -103,7 +90,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@@sep=\skip44
 
 (./fcc_timing.spl)
-(/users/reb/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -114,18 +101,17 @@ LaTeX Info: Redefining \cite on input line 694.
 \openout3 = `fcc_timing.spl'.
 
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count95
@@ -141,21 +127,21 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen116
 \Gm@dimlist=\toks17
 ))
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen117
 \epsfysize=\dimen118
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen119
 \extrarowheight=\dimen120
 \NC@list=\toks18
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@col@width=\dimen121
 \TX@old@table=\dimen122
 \TX@old@col=\dimen123
@@ -164,15 +150,15 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@cols=\count98
 \TX@ftn=\toks19
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count99
 \rotFPtop=\skip49
@@ -180,18 +166,18 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box30
 \rot@mess@toks=\toks20
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks21
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/ms/everysel.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip51
@@ -209,97 +195,97 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip63
 \JustifyingParindent=\skip64
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen126
 \Hy@linkcounter=\count100
 \Hy@pagecounter=\count101
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count102
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `final' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count103
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen127
 \Fld@menulength=\count104
 \Field@Width=\dimen128
 \Fld@charsize=\dimen129
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count105
 \c@Item=\count106
 \c@Hfootnote=\count107
@@ -307,19 +293,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count108
 \c@bookmark@seq@number=\count109
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip65
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count110
 \lst@gtempboxa=\box31
 \lst@token=\toks22
@@ -333,18 +319,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \lst@lineno=\count115
 \lst@maxwidth=\dimen133
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count116
 \lst@skipnumbers=\count117
 \lst@framebox=\box32
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count118
 \output=\toks23
@@ -362,7 +348,7 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box33
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip66
 \subfigcapskip=\skip67
@@ -378,37 +364,39 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/users/reb/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip70
 \subfig@bottom=\skip71
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/users/reb/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count129
 \float@exts=\toks24
@@ -416,13 +404,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box35
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read1
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/soul/soul.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks28
 \SOUL@lasttoken=\toks29
@@ -434,7 +422,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen142
 \SOUL@ulht=\dimen143
 )
-(/users/reb/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box36
 \UL@hyphenbox=\box37
 \UL@skip=\skip73
@@ -446,41 +434,41 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 Package: ulem 2012/05/18
 \ULdepth=\dimen146
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip74
 
 For additional information on amsmath, use the `?' option.
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
 \ex@=\dimen147
 ))
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen148
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count131
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count132
 \leftroot@=\count133
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count134
 \DOTSCASE@=\count135
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box39
 \strutbox@=\box40
 \big@size=\dimen149
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count136
 \c@MaxMatrixCols=\count137
 \dotsspace@=\muskip11
@@ -501,17 +489,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip75
 \multlinetaggap=\skip76
 \mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 LaTeX Info: Redefining \lesssim on input line 72.
 LaTeX Info: Redefining \gtrsim on input line 75.
 Package hyperref Info: Option `colorlinks' set `true' on input line 92.
 
-(./fcc_timing.aux)
+(./fcc_timing.aux
+
+LaTeX Warning: Label `fig:singleparticles' multiply defined.
+
+
+LaTeX Warning: Label `sec:Def_timing' multiply defined.
+
+)
 \openout1 = `fcc_timing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
@@ -528,12 +523,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
 LaTeX Font Info:    ... okay on input line 134.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
 LaTeX Font Info:    ... okay on input line 134.
-
-<<<<<<< HEAD
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
-(/users/reb/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen156
@@ -588,11 +578,11 @@ LaTeX Info: Redefining \selectfont on input line 134.
 \AtBeginShipoutBox=\box42
 Package hyperref Info: Link coloring ON on input line 134.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/users/reb/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count149
 )
@@ -606,24 +596,44 @@ LaTeX Info: Redefining \nameref on input line 134.
 
 \c@lstlisting=\count150
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 217.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 217.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 217.
 
-(/users/reb/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+Package natbib Warning: Citation `Linssen:1425915' on page 1 undefined on input
+ line 224.
+
+
+Package natbib Warning: Citation `Behnke:2013xla' on page 1 undefined on input 
+line 224.
+
+
+Package natbib Warning: Citation `Benedikt:2206376' on page 1 undefined on inpu
+t line 225.
+
+
+Package natbib Warning: Citation `Tang:2015qga' on page 1 undefined on input li
+ne 225.
+
+
+Package natbib Warning: Citation `Ahmed:2019sim' on page 1 undefined on input l
+ine 237.
+
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
@@ -636,9 +646,9 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [1
+[1
 
-{/users/reb/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
@@ -649,16 +659,25 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-<timing_layer.pdf, id=47, 794.97pt x 614.295pt>
+<timing_layer.pdf, id=49, 794.97pt x 614.295pt>
 File: timing_layer.pdf Graphic file (type pdf)
  <use timing_layer.pdf>
 Package pdftex.def Info: timing_layer.pdf used on input line 271.
 (pdftex.def)             Requested size: 330.05322pt x 255.04951pt.
- [2]
 
-pdfTeX warning: pdflatex (file ./timeECAL_2layers1.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<timeECAL_2layers1.pdf, id=62, 569.12625pt x 546.04pt>
+
+Package natbib Warning: Citation `Allison2016186' on page 2 undefined on input 
+line 279.
+
+
+Package natbib Warning: Citation `Chekanov:2016ppq' on page 2 undefined on inpu
+t line 280.
+
+[2]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./timeECAL_2layers1.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<timeECAL_2layers1.pdf, id=60, 569.12625pt x 546.04pt>
 File: timeECAL_2layers1.pdf Graphic file (type pdf)
 
 <use timeECAL_2layers1.pdf>
@@ -680,9 +699,15 @@ l.309 \clearpage
                  <./timeECAL_2layers1.pdf>]
 (./Timing_layers_for_single_particles.tex
 
-pdfTeX warning: pdflatex (file ./time_flight_length_neutron.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<time_flight_length_neutron.pdf, id=94, 569.12625pt x 542.025pt>
+Package natbib Warning: Citation `Cerri:2018rkm' on page 5 undefined on input l
+ine 5.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./time_flight_length_neutron
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<time_flight_length_neutron.pdf, id=91, 569.12625pt x 542.025pt>
 File: time_flight_length_neutron.pdf Graphic file (type pdf)
 
 <use time_flight_length_neutron.pdf>
@@ -690,38 +715,17 @@ Package pdftex.def Info: time_flight_length_neutron.pdf used on input line 21.
 (pdftex.def)             Requested size: 247.54149pt x 235.75415pt.
 
 
-pdfTeX warning: pdflatex (file ./time_flight_length_kion.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<time_flight_length_kion.pdf, id=95, 569.12625pt x 542.025pt>
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./time_flight_length_kion.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<time_flight_length_kion.pdf, id=92, 569.12625pt x 542.025pt>
 File: time_flight_length_kion.pdf Graphic file (type pdf)
 
 <use time_flight_length_kion.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: time_flight_length_kion.pdf used on input line 319.
-(pdftex.def)             Requested size: 185.65297pt x 176.8094pt.
-File: time_flight_length_kion.pdf Graphic file (type pdf)
- <use time_flight_length_kion.pdf>
-Package pdftex.def Info: time_flight_length_kion.pdf used on input line 322.
-(pdftex.def)             Requested size: 185.65297pt x 176.8094pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.332 \clearpage
-                
-
- <./time_flight_length_kion.pdf>]
-(./Timing_layers_for_single_particles.tex)
-(./Timing_layers_for_ee_experiments.tex) (./Timing_layers_for_FCC_and_jets.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-=======
 Package pdftex.def Info: time_flight_length_kion.pdf used on input line 24.
 (pdftex.def)             Requested size: 247.54149pt x 235.75415pt.
 ) (./Timing_layers_for_ee_experiments.tex)
 (./Timing_layers_for_FCC_and_jets.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
@@ -748,19 +752,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 [5
 
-<<<<<<< HEAD
-]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-=======
 ] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.10 
+l.11 
       <./time_flight_length_neutron.pdf> <./time_flight_length_kion.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
@@ -774,20 +773,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<<<<<<< HEAD
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_0_5TeV_Truth.pdf, id=136, 569.12625pt x 543.02875pt>
+V/dR_PT_0_5TeV_Truth.pdf, id=131, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_0_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -798,7 +796,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf used on input line 50.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_1_5TeV_Truth.pdf, id=137, 569.12625pt x 543.02875pt>
+V/dR_PT_1_5TeV_Truth.pdf, id=132, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_1_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -809,7 +807,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_1_5TeV_Truth.pdf used on input line 53.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_2_5TeV_Truth.pdf, id=138, 569.12625pt x 543.02875pt>
+V/dR_PT_2_5TeV_Truth.pdf, id=133, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_2_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -820,7 +818,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_2_5TeV_Truth.pdf used on input line 56.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_3_5TeV_Truth.pdf, id=139, 569.12625pt x 543.02875pt>
+V/dR_PT_3_5TeV_Truth.pdf, id=134, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_3_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -831,7 +829,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_3_5TeV_Truth.pdf used on input line 59.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_4_5TeV_Truth.pdf, id=140, 569.12625pt x 543.02875pt>
+V/dR_PT_4_5TeV_Truth.pdf, id=135, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_4_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -842,7 +840,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_4_5TeV_Truth.pdf used on input line 62.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_0_5TeV_Truth.pdf, id=141, 569.12625pt x 543.02875pt>
+V/dR_T_0_5TeV_Truth.pdf, id=136, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_0_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -853,7 +851,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_0_5TeV_Truth.pdf used on input line 72.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_1_5TeV_Truth.pdf, id=142, 569.12625pt x 543.02875pt>
+V/dR_T_1_5TeV_Truth.pdf, id=137, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_1_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -864,7 +862,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_1_5TeV_Truth.pdf used on input line 75.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_2_5TeV_Truth.pdf, id=143, 569.12625pt x 543.02875pt>
+V/dR_T_2_5TeV_Truth.pdf, id=138, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_2_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -875,7 +873,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_2_5TeV_Truth.pdf used on input line 78.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_3_5TeV_Truth.pdf, id=144, 569.12625pt x 543.02875pt>
+V/dR_T_3_5TeV_Truth.pdf, id=139, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_3_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -886,7 +884,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_3_5TeV_Truth.pdf used on input line 81.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_4_5TeV_Truth.pdf, id=145, 569.12625pt x 543.02875pt>
+V/dR_T_4_5TeV_Truth.pdf, id=140, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_4_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -897,7 +895,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_4_5TeV_Truth.pdf used on input line 84.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_0_40TeV_Truth.pdf, id=146, 569.12625pt x 543.02875pt>
+eV/dR_PT_0_40TeV_Truth.pdf, id=141, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_0_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -908,7 +906,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_0_40TeV_Truth.pdf used on input line 94.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_1_40TeV_Truth.pdf, id=147, 569.12625pt x 543.02875pt>
+eV/dR_PT_1_40TeV_Truth.pdf, id=142, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_1_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -919,7 +917,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_1_40TeV_Truth.pdf used on input line 97.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_2_40TeV_Truth.pdf, id=148, 569.12625pt x 543.02875pt>
+eV/dR_PT_2_40TeV_Truth.pdf, id=143, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_2_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -930,7 +928,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_2_40TeV_Truth.pdf used on input line 100.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_3_40TeV_Truth.pdf, id=149, 569.12625pt x 543.02875pt>
+eV/dR_PT_3_40TeV_Truth.pdf, id=144, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_3_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -941,7 +939,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_3_40TeV_Truth.pdf used on input line 103.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_4_40TeV_Truth.pdf, id=150, 569.12625pt x 543.02875pt>
+eV/dR_PT_4_40TeV_Truth.pdf, id=145, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_4_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -952,7 +950,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_4_40TeV_Truth.pdf used on input line 106.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_0_40TeV_Truth.pdf, id=151, 569.12625pt x 543.02875pt>
+eV/dR_T_0_40TeV_Truth.pdf, id=146, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_0_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -963,7 +961,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_0_40TeV_Truth.pdf used on input line 116.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_1_40TeV_Truth.pdf, id=152, 569.12625pt x 543.02875pt>
+eV/dR_T_1_40TeV_Truth.pdf, id=147, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_1_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -974,7 +972,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_1_40TeV_Truth.pdf used on input line 119.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_2_40TeV_Truth.pdf, id=153, 569.12625pt x 543.02875pt>
+eV/dR_T_2_40TeV_Truth.pdf, id=148, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_2_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -985,7 +983,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_2_40TeV_Truth.pdf used on input line 122.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_3_40TeV_Truth.pdf, id=154, 569.12625pt x 543.02875pt>
+eV/dR_T_3_40TeV_Truth.pdf, id=149, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_3_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -996,7 +994,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_3_40TeV_Truth.pdf used on input line 125.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_4_40TeV_Truth.pdf, id=155, 569.12625pt x 543.02875pt>
+eV/dR_T_4_40TeV_Truth.pdf, id=150, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_4_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1007,7 +1005,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_4_40TeV_Truth.pdf used on input line 128.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_5TeV_Truth.pdf, id=156, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_5TeV_Truth.pdf, id=151, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1019,7 +1017,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Truth.pdf used on input line 138
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_10TeV_Truth.pdf, id=157, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_10TeV_Truth.pdf, id=152, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_10TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1031,7 +1029,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_10TeV_Truth.pdf used on input line 14
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_20TeV_Truth.pdf, id=158, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_20TeV_Truth.pdf, id=153, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_20TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1043,7 +1041,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Truth.pdf used on input line 14
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_40TeV_Truth.pdf, id=159, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_40TeV_Truth.pdf, id=154, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1058,12 +1056,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
-has been already used, duplicate ignored
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[8] [9pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 
+l.156 
        </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_
 Dis/5TeV/dR_PT_0_5TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476
 /Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_PT_1_5TeV_Tru
@@ -1072,13 +1075,13 @@ ed_for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_PT_2_5TeV_Truth.pdf, page is rotated 9
 0 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth
 _dR_Dis/5TeV/dR_PT_3_5TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms0896
 2476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_PT_4_5TeV
-_Truth.pdf, page is rotated 90 degrees>] [8pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.5}) has been already used, duplicate ignor
-ed
+_Truth.pdf, page is rotated 90 degrees>] [10pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.5}) has been already used, duplicate igno
+red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 
+l.156 
        </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_
 Dis/5TeV/dR_T_0_5TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/
 Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_T_1_5TeV_Truth
@@ -1087,12 +1090,12 @@ _for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_T_2_5TeV_Truth.pdf, page is rotated 90 d
 egrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR
 _Dis/5TeV/dR_T_3_5TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476
 /Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_T_4_5TeV_Trut
-h.pdf, page is rotated 90 degrees>] [9pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.6}) has been already used, duplicate ignored
+h.pdf, page is rotated 90 degrees>] [11pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 
+l.156 
        </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_
 Dis/40TeV/dR_PT_0_40TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms089624
 76/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_PT_1_40TeV
@@ -1101,13 +1104,13 @@ s_used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_PT_2_40TeV_Truth.pdf, page is rot
 ated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets
 /Truth_dR_Dis/40TeV/dR_PT_3_40TeV_Truth.pdf, page is rotated 90 degrees> </User
 s/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_
-PT_4_40TeV_Truth.pdf, page is rotated 90 degrees>] [10pdfTeX warning (ext4): de
+PT_4_40TeV_Truth.pdf, page is rotated 90 degrees>] [12pdfTeX warning (ext4): de
 stination with the same identifier (name{figure.7}) has been already used, dupl
 icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 
+l.156 
        </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_
 Dis/40TeV/dR_T_0_40TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms0896247
 6/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_T_1_40TeV_T
@@ -1116,13 +1119,13 @@ used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_T_2_40TeV_Truth.pdf, page is rotate
 d 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Tr
 uth_dR_Dis/40TeV/dR_T_3_40TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms
 08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40TeV/dR_T_4_
-40TeV_Truth.pdf, page is rotated 90 degrees>] [11pdfTeX warning (ext4): destina
+40TeV_Truth.pdf, page is rotated 90 degrees>] [13pdfTeX warning (ext4): destina
 tion with the same identifier (name{figure.8}) has been already used, duplicate
  ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.154 
+l.156 
        </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_
 BDT/BDT_plot_dR_dRplusID_5TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms
 08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT_plot_dR_d
@@ -1131,33 +1134,18 @@ paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Tr
 uth.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_u
 sed_for_FCC_and_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_40TeV_Truth.pdf, page is
  rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
-=======
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
-
- []
-
-
-<<<<<<< HEAD
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, id=1258, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, id=1261, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1169,7 +1157,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf used on input line 169
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf, id=1259, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf, id=1262, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1181,7 +1169,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf used on input line 172
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf, id=1260, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf, id=1263, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1193,7 +1181,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf used on input line 175
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, id=1261, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, id=1264, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1205,7 +1193,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf used on input line 178
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, id=1262, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, id=1265, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1217,7 +1205,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf used on input line 181
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, id=1263, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, id=1266, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1229,7 +1217,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf used on input line 191.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_1_5TeV_Reco.pdf, id=1264, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_1_5TeV_Reco.pdf, id=1267, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1241,7 +1229,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf used on input line 194.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_2_5TeV_Reco.pdf, id=1265, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_2_5TeV_Reco.pdf, id=1268, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1253,7 +1241,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf used on input line 197.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, id=1266, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, id=1269, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1265,7 +1253,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf used on input line 200.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, id=1267, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, id=1270, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1277,7 +1265,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf used on input line 203.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, id=1268, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, id=1271, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1289,7 +1277,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf, id=1269, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf, id=1272, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1301,7 +1289,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf, id=1270, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf, id=1273, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1313,7 +1301,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf, id=1271, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf, id=1274, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1325,7 +1313,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, id=1272, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, id=1275, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1337,7 +1325,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, id=1273, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, id=1276, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1349,7 +1337,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf used on input line 23
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_1_40TeV_Reco.pdf, id=1274, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_1_40TeV_Reco.pdf, id=1277, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1361,7 +1349,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf used on input line 23
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_2_40TeV_Reco.pdf, id=1275, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_2_40TeV_Reco.pdf, id=1278, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1373,7 +1361,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf used on input line 24
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_3_40TeV_Reco.pdf, id=1276, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_3_40TeV_Reco.pdf, id=1279, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1385,7 +1373,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf used on input line 24
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, id=1277, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, id=1280, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1397,7 +1385,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf used on input line 24
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_5TeV_Reco.pdf, id=1278, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_5TeV_Reco.pdf, id=1281, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1408,7 +1396,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Reco.pdf used on input line 257.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_10TeV_Reco.pdf, id=1279, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_10TeV_Reco.pdf, id=1282, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_10TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1420,7 +1408,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_10TeV_Reco.pdf used on input line 260.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_20TeV_Reco.pdf, id=1280, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_20TeV_Reco.pdf, id=1283, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_20TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1432,7 +1420,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Reco.pdf used on input line 263.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_40TeV_Reco.pdf, id=1281, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_40TeV_Reco.pdf, id=1284, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1440,93 +1428,16 @@ File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 BDT_plot_dR_dRplusID_40TeV_Reco.pdf>
 Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
 nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_40TeV_Reco.pdf used on input line 266.
-=======
-LaTeX Warning: Reference `fig:Truth_dR_Dis_5TeV_PT' on page 8 undefined on inpu
-t line 44.
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
 
+(pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
-<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-[12] [13pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.9}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272 
-       </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_D
-is_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms
-08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco
-/dR_PT_1_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_p
-aper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_2_5TeV_Rec
-o.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_use
-d_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, page is ro
-tated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jet
-s/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, page is rotated 90 degrees>
-] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272 
-       </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_D
-is_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms0
-8962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/
-dR_T_1_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pap
-er/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.p
-df, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_f
-or_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, page is rotate
-d 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Re
-co_dR_Dis_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, page is rotated 90 degrees>]
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272 
-       </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_D
-is_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/
-ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_R
-eco/dR_PT_1_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timi
-ng_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_2_40T
-eV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictur
-es_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf, pa
-ge is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC
-_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, page is rotated 9
-0 degrees>] [16pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272 
-       </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_D
-is_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/m
-s08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Re
-co/dR_T_1_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing
-_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_2_40TeV_
-Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_
-used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf, page i
-s rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and
-_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, page is rotated 90 deg
-rees>] [17pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.272 
-       </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_B
-DT/BDT_plot_dR_dRplusID_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08
-962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot_dR_dRpl
-usID_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pape
-r/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Reco.pd
-f, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_fo
-r_FCC_and_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_40TeV_Reco.pdf, page is rotated
- 90 degrees>]
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, id=2379, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, id=1289, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1539,7 +1450,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf, id=2380, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf, id=1290, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1552,7 +1463,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf, id=2381, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf, id=1291, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1565,7 +1476,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf, id=2382, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf, id=1292, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1578,7 +1489,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf, id=2383, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf, id=1293, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1591,7 +1502,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, id=2384, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, id=1294, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1604,7 +1515,7 @@ on input line 299.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf, id=2385, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf, id=1295, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1617,7 +1528,7 @@ on input line 302.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf, id=2386, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf, id=1296, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1630,7 +1541,7 @@ on input line 305.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf, id=2387, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf, id=1297, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1643,7 +1554,7 @@ on input line 308.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf, id=2388, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf, id=1298, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1654,12 +1565,85 @@ Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
 nd_jets/Reco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf used 
 on input line 311.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
-) [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-4}) has been already used, duplicate ignored
+) [14] [15pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.342 \newpage
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, page is rotated 90 degrees> </
+Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5
+TeV_Reco/dR_PT_1_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/
+Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_2_
+5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pict
+ures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, pa
+ge is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC
+_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, page is rotated 90 
+degrees>] [16pdfTeX warning (ext4): destination with the same identifier (name{
+figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, page is rotated 90 degrees> </U
+sers/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5T
+eV_Reco/dR_T_1_5TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Ti
+ming_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_2_5Te
+V_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Picture
+s_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, page i
+s rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and
+_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, page is rotated 90 degre
+es>] [17pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962
+476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_
+PT_2_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pape
+r/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, page is r
+otated 90 degrees>] [18pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, page is rotated 90 degrees> <
+/Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/
+40TeV_Reco/dR_T_1_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms0896247
+6/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_
+2_40TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/P
+ictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf
+, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for
+_FCC_and_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, page is rotate
+d 90 degrees>] [19pdfTeX warning (ext4): destination with the same identifier (
+name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Reco.pdf, page is rotated 90 degrees> </Us
+ers/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot
+_dR_dRplusID_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Tim
+ing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_20TeV
+_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures
+_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_40TeV_Reco.pdf, page is
+ rotated 90 degrees>] [20pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, page is rotated
  90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Rec
@@ -1670,12 +1654,12 @@ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR
 _Dis_Tracker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf, page is rotated 90 de
 grees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_D
 is_Tracker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf, page is rotated 90 degr
-ees>] [19pdfTeX warning (ext4): destination with the same identifier (name{figu
+ees>] [21pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.342 \newpage
+l.319 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, page is rotat
 ed 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
@@ -1691,23 +1675,33 @@ No file fcc_timing.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
 (./fcc_timing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
-Package rerunfilecheck Info: File `fcc_timing.out' has not changed.
-(rerunfilecheck)             Checksum: 43D56BB1FE3AE774B619185E26D560D3;729.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+
+
+Package rerunfilecheck Warning: File `fcc_timing.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `fcc_timing.out':
+(rerunfilecheck)             Before: BFF032F4159EE3952A6F3759FD803D48;436
+(rerunfilecheck)             After:  B3F1BDF7228786128781F3D88202DE49;677.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 9752 strings out of 492995
- 163896 string characters out of 6132704
- 265978 words of memory out of 5000000
+ 9754 strings out of 492995
+ 164006 string characters out of 6132704
+ 269243 words of memory out of 5000000
  12944 multiletter control sequences out of 15000+600000
  14223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,40p,1531b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,40p,1531b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
@@ -1725,96 +1719,10 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (19 pages, 1001362 bytes).
+Output written on fcc_timing.pdf (21 pages, 1016014 bytes).
 PDF statistics:
- 2923 PDF objects out of 2984 (max. 8388607)
- 1352 compressed objects within 14 object streams
- 116 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-LaTeX Warning: Reference `fig:Truth_dR_Dis_5TeV_T' on page 8 undefined on input
- line 44.
-
-
-LaTeX Warning: Reference `fig:Truth_dR_Dis_40TeV_PT' on page 8 undefined on inp
-ut line 44.
-
-
-LaTeX Warning: Reference `fig:Truth_dR_Dis_40TeV_T' on page 8 undefined on inpu
-t line 44.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-LaTeX Warning: File `/Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_j
-ets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf' not found on input line 50.
-
-
-! Package pdftex.def Error: File `/Users/ms08962476/Timing_paper/Pictures_used_
-for_FCC_and_jets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50    }
-         
-? x
- 
-Here is how much of TeX's memory you used:
- 9324 strings out of 493488
- 133753 string characters out of 3141325
- 249283 words of memory out of 3000000
- 12415 multiletter control sequences out of 15000+200000
- 14223 words of font info for 56 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 34i,8n,35p,1527b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.Cerri:2018rkm} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Chekanov:2016ppq} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Allison2016186} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ahmed:2019sim} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Tang:2015qga} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Benedikt:2206376} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Behnke:2013xla} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Linssen:1425915} has been referenced but does 
-not exist, replaced by a fixed one
-
-</users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-users/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-ers/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></user
-s/reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></users/
-reb/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></users/re
-b/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></users/reb/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></users/reb/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></users/reb/texlive
-/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></users/reb/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></users/reb/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></users/reb/texlive/201
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></users/reb/texlive/2012/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (7 pages, 248567 bytes).
-PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 09dd5c7fdc845b8106b484fe864321cb36183fb5
+ 2926 PDF objects out of 2984 (max. 8388607)
+ 1351 compressed objects within 14 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 
