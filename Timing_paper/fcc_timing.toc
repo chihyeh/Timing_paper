@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Proposal}{2}{section.2}
+\contentsline {section}{\numberline {3}Timing layers for single particles}{5}{section.3}
+\contentsline {section}{\numberline {4}Timing layers for FCC and jets}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}The definitions of the terms introduced in the following studies}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}The timing used in the truth-level cases}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}The trailing particles applied in all cases}{8}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}The truth-level studies}{8}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}The study of the chosen trailing particles}{8}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}$\Delta R$}{11}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}The reco-level studies}{16}{subsection.4.3}
