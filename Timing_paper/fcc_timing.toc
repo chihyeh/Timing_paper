@@ -9,3 +9,4 @@
 \contentsline {subsubsection}{\numberline {4.2.1}The study of the chosen trailing particles}{8}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}$\Delta R$}{11}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}The reco-level studies}{16}{subsection.4.3}
+\contentsline {section}{\numberline {5}Pick up the histograms}{24}{section.5}

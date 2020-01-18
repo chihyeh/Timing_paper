@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  12 JAN 2020 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  14 JAN 2020 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,25 +499,40 @@ LaTeX Info: Redefining \lesssim on input line 72.
 LaTeX Info: Redefining \gtrsim on input line 75.
 Package hyperref Info: Option `colorlinks' set `true' on input line 92.
 
-(./fcc_timing.aux)
-\openout1 = `fcc_timing.aux'.
+(./fcc_timing.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+./fcc_timing.aux:42: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 <
+      <<<<<< HEAD
+? 
+./fcc_timing.aux:42: Emergency stop.
+ ...                                              
+                                                  
+l.42 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 8691 strings out of 492995
+ 124066 string characters out of 6132704
+ 223571 words of memory out of 5000000
+ 12135 multiletter control sequences out of 15000+600000
+ 5049 words of font info for 19 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,0n,32p,377b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+./fcc_timing.aux:42:  ==> Fatal error occurred, no output PDF file produced!
+m/n on input line 134.
 LaTeX Font Info:    ... okay on input line 134.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
 LaTeX Font Info:    ... okay on input line 134.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen156
@@ -629,8 +644,11 @@ t line 225.
 Package natbib Warning: Citation `Tang:2015qga' on page 1 undefined on input li
 ne 225.
 
+[1
 
-Package natbib Warning: Citation `Ahmed:2019sim' on page 1 undefined on input l
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Ahmed:2019sim' on page 2 undefined on input l
 ine 237.
 
 Missing character: There is no ‚ in font cmr10!
@@ -639,9 +657,6 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -657,8 +672,7 @@ Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-<timing_layer.pdf, id=80, 794.97pt x 614.295pt>
+<timing_layer.pdf, id=85, 794.97pt x 614.295pt>
 File: timing_layer.pdf Graphic file (type pdf)
  <use timing_layer.pdf>
 Package pdftex.def Info: timing_layer.pdf used on input line 271.
@@ -676,7 +690,7 @@ t line 280.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./timeECAL_2layers1.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<timeECAL_2layers1.pdf, id=89, 569.12625pt x 546.04pt>
+<timeECAL_2layers1.pdf, id=94, 569.12625pt x 546.04pt>
 File: timeECAL_2layers1.pdf Graphic file (type pdf)
 
 <use timeECAL_2layers1.pdf>
@@ -706,7 +720,7 @@ ine 5.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./time_flight_length_neutron
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<time_flight_length_neutron.pdf, id=123, 569.12625pt x 542.025pt>
+<time_flight_length_neutron.pdf, id=128, 569.12625pt x 542.025pt>
 File: time_flight_length_neutron.pdf Graphic file (type pdf)
 
 <use time_flight_length_neutron.pdf>
@@ -716,7 +730,7 @@ Package pdftex.def Info: time_flight_length_neutron.pdf used on input line 21.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./time_flight_length_kion.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<time_flight_length_kion.pdf, id=124, 569.12625pt x 542.025pt>
+<time_flight_length_kion.pdf, id=129, 569.12625pt x 542.025pt>
 File: time_flight_length_kion.pdf Graphic file (type pdf)
 
 <use time_flight_length_kion.pdf>
@@ -784,7 +798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf, id=164, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf, id=169, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf Graphic file (type pdf)
 
@@ -796,7 +810,7 @@ t line 55.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf, id=165, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf, id=170, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf Graphic file (type pdf)
 
@@ -808,7 +822,7 @@ t line 58.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf, id=166, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf, id=171, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf Graphic file (type pdf)
 
@@ -820,7 +834,7 @@ t line 61.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf, id=167, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf, id=172, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf Graphic file (type pdf)
 
@@ -832,7 +846,7 @@ t line 64.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf, id=168, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf, id=173, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf Graphic file (type pdf)
 
@@ -844,7 +858,7 @@ t line 67.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf, id=169, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf, id=174, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf Graphic file (type pdf)
 
@@ -856,7 +870,7 @@ nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf used on input
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf, id=170, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf, id=175, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf Graphic file (type pdf)
 
@@ -868,7 +882,7 @@ nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf used on input
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf, id=171, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf, id=176, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf Graphic file (type pdf)
 
@@ -880,7 +894,7 @@ nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf used on input
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf, id=172, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf, id=177, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf Graphic file (type pdf)
 
@@ -892,7 +906,7 @@ nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf used on input
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
-D/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf, id=173, 569.12625pt x 543.02875pt>
+D/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf, id=178, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
 cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf Graphic file (type pdf)
 
@@ -953,7 +967,7 @@ o_Particles_Rank_T_3.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing
 _paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Partic
 les_Rank_T_4.pdf, page is rotated 90 degrees>]
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_0_5TeV_Truth.pdf, id=625, 569.12625pt x 543.02875pt>
+V/dR_PT_0_5TeV_Truth.pdf, id=631, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_0_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -964,7 +978,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf used on input line 105.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_1_5TeV_Truth.pdf, id=626, 569.12625pt x 543.02875pt>
+V/dR_PT_1_5TeV_Truth.pdf, id=632, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_1_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -975,7 +989,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_1_5TeV_Truth.pdf used on input line 108.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_2_5TeV_Truth.pdf, id=627, 569.12625pt x 543.02875pt>
+V/dR_PT_2_5TeV_Truth.pdf, id=633, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_2_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -986,7 +1000,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_2_5TeV_Truth.pdf used on input line 111.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_3_5TeV_Truth.pdf, id=628, 569.12625pt x 543.02875pt>
+V/dR_PT_3_5TeV_Truth.pdf, id=634, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_3_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -997,7 +1011,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_3_5TeV_Truth.pdf used on input line 114.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_PT_4_5TeV_Truth.pdf, id=629, 569.12625pt x 543.02875pt>
+V/dR_PT_4_5TeV_Truth.pdf, id=635, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_PT_4_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1008,7 +1022,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_PT_4_5TeV_Truth.pdf used on input line 117.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_0_5TeV_Truth.pdf, id=630, 569.12625pt x 543.02875pt>
+V/dR_T_0_5TeV_Truth.pdf, id=636, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_0_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1019,7 +1033,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_0_5TeV_Truth.pdf used on input line 127.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_1_5TeV_Truth.pdf, id=631, 569.12625pt x 543.02875pt>
+V/dR_T_1_5TeV_Truth.pdf, id=637, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_1_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1030,7 +1044,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_1_5TeV_Truth.pdf used on input line 130.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_2_5TeV_Truth.pdf, id=632, 569.12625pt x 543.02875pt>
+V/dR_T_2_5TeV_Truth.pdf, id=638, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_2_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1041,7 +1055,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_2_5TeV_Truth.pdf used on input line 133.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_3_5TeV_Truth.pdf, id=633, 569.12625pt x 543.02875pt>
+V/dR_T_3_5TeV_Truth.pdf, id=639, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_3_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1052,7 +1066,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_3_5TeV_Truth.pdf used on input line 136.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/5Te
-V/dR_T_4_5TeV_Truth.pdf, id=634, 569.12625pt x 543.02875pt>
+V/dR_T_4_5TeV_Truth.pdf, id=640, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/5TeV/dR_T_4_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1063,7 +1077,7 @@ nd_jets/Truth_dR_Dis/5TeV/dR_T_4_5TeV_Truth.pdf used on input line 139.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_0_40TeV_Truth.pdf, id=635, 569.12625pt x 543.02875pt>
+eV/dR_PT_0_40TeV_Truth.pdf, id=641, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_0_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1074,7 +1088,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_0_40TeV_Truth.pdf used on input line 149.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_1_40TeV_Truth.pdf, id=636, 569.12625pt x 543.02875pt>
+eV/dR_PT_1_40TeV_Truth.pdf, id=642, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_1_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1085,7 +1099,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_1_40TeV_Truth.pdf used on input line 152.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_2_40TeV_Truth.pdf, id=637, 569.12625pt x 543.02875pt>
+eV/dR_PT_2_40TeV_Truth.pdf, id=643, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_2_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1096,7 +1110,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_2_40TeV_Truth.pdf used on input line 155.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_3_40TeV_Truth.pdf, id=638, 569.12625pt x 543.02875pt>
+eV/dR_PT_3_40TeV_Truth.pdf, id=644, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_3_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1107,7 +1121,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_3_40TeV_Truth.pdf used on input line 158.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_PT_4_40TeV_Truth.pdf, id=639, 569.12625pt x 543.02875pt>
+eV/dR_PT_4_40TeV_Truth.pdf, id=645, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_PT_4_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1118,7 +1132,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_PT_4_40TeV_Truth.pdf used on input line 161.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_0_40TeV_Truth.pdf, id=640, 569.12625pt x 543.02875pt>
+eV/dR_T_0_40TeV_Truth.pdf, id=646, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_0_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1129,7 +1143,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_0_40TeV_Truth.pdf used on input line 171.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_1_40TeV_Truth.pdf, id=641, 569.12625pt x 543.02875pt>
+eV/dR_T_1_40TeV_Truth.pdf, id=647, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_1_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1140,7 +1154,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_1_40TeV_Truth.pdf used on input line 174.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_2_40TeV_Truth.pdf, id=642, 569.12625pt x 543.02875pt>
+eV/dR_T_2_40TeV_Truth.pdf, id=648, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_2_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1151,7 +1165,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_2_40TeV_Truth.pdf used on input line 177.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_3_40TeV_Truth.pdf, id=643, 569.12625pt x 543.02875pt>
+eV/dR_T_3_40TeV_Truth.pdf, id=649, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_3_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1162,7 +1176,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_3_40TeV_Truth.pdf used on input line 180.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/40T
-eV/dR_T_4_40TeV_Truth.pdf, id=644, 569.12625pt x 543.02875pt>
+eV/dR_T_4_40TeV_Truth.pdf, id=650, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
 s/40TeV/dR_T_4_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1173,7 +1187,7 @@ nd_jets/Truth_dR_Dis/40TeV/dR_T_4_40TeV_Truth.pdf used on input line 183.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_5TeV_Truth.pdf, id=645, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_5TeV_Truth.pdf, id=651, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_5TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1185,7 +1199,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Truth.pdf used on input line 193
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_10TeV_Truth.pdf, id=646, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_10TeV_Truth.pdf, id=652, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_10TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1197,7 +1211,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_10TeV_Truth.pdf used on input line 19
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_20TeV_Truth.pdf, id=647, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_20TeV_Truth.pdf, id=653, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_20TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1209,7 +1223,7 @@ nd_jets/Truth_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Truth.pdf used on input line 19
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BDT/BDT
-_plot_dR_dRplusID_40TeV_Truth.pdf, id=648, 569.12625pt x 543.02875pt>
+_plot_dR_dRplusID_40TeV_Truth.pdf, id=654, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_BD
 T/BDT_plot_dR_dRplusID_40TeV_Truth.pdf Graphic file (type pdf)
 
@@ -1313,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, id=1745, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, id=1753, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1325,7 +1339,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf used on input line 224
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf, id=1746, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf, id=1754, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1337,7 +1351,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf used on input line 227
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf, id=1747, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf, id=1755, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1349,7 +1363,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf used on input line 230
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, id=1748, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf, id=1756, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1361,7 +1375,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf used on input line 233
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, id=1749, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf, id=1757, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1373,7 +1387,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf used on input line 236
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, id=1750, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, id=1758, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1385,7 +1399,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf used on input line 246.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_1_5TeV_Reco.pdf, id=1751, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_1_5TeV_Reco.pdf, id=1759, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1397,7 +1411,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf used on input line 249.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_2_5TeV_Reco.pdf, id=1752, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_2_5TeV_Reco.pdf, id=1760, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1409,7 +1423,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf used on input line 252.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, id=1753, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_3_5TeV_Reco.pdf, id=1761, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1421,7 +1435,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf used on input line 255.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, id=1754, 569.12625pt x 543.02875pt>
+/5TeV_Reco/dR_T_4_5TeV_Reco.pdf, id=1762, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1433,7 +1447,7 @@ nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf used on input line 258.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, id=1755, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, id=1763, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1445,7 +1459,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf, id=1756, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf, id=1764, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1457,7 +1471,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf, id=1757, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf, id=1765, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1469,7 +1483,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf, id=1758, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf, id=1766, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1481,7 +1495,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, id=1759, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf, id=1767, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1493,7 +1507,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf used on input line 2
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, id=1760, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, id=1768, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1505,7 +1519,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf used on input line 29
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_1_40TeV_Reco.pdf, id=1761, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_1_40TeV_Reco.pdf, id=1769, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1517,7 +1531,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf used on input line 29
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_2_40TeV_Reco.pdf, id=1762, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_2_40TeV_Reco.pdf, id=1770, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1529,7 +1543,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf used on input line 29
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_3_40TeV_Reco.pdf, id=1763, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_3_40TeV_Reco.pdf, id=1771, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1541,7 +1555,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf used on input line 29
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
-/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, id=1764, 569.12625pt x 543.02875pt>
+/40TeV_Reco/dR_T_4_40TeV_Reco.pdf, id=1772, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1553,7 +1567,7 @@ nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf used on input line 30
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_5TeV_Reco.pdf, id=1765, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_5TeV_Reco.pdf, id=1773, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_5TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1564,7 +1578,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Reco.pdf used on input line 312.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_10TeV_Reco.pdf, id=1766, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_10TeV_Reco.pdf, id=1774, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_10TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1576,7 +1590,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_10TeV_Reco.pdf used on input line 315.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_20TeV_Reco.pdf, id=1767, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_20TeV_Reco.pdf, id=1775, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_20TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1588,7 +1602,7 @@ nd_jets/Reco_dR_BDT/BDT_plot_dR_dRplusID_20TeV_Reco.pdf used on input line 318.
 (pdftex.def)             Requested size: 165.02345pt x 157.45772pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_
-plot_dR_dRplusID_40TeV_Reco.pdf, id=1768, 569.12625pt x 543.02875pt>
+plot_dR_dRplusID_40TeV_Reco.pdf, id=1776, 569.12625pt x 543.02875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT
 /BDT_plot_dR_dRplusID_40TeV_Reco.pdf Graphic file (type pdf)
 
@@ -1605,7 +1619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, id=1773, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, id=1781, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1618,7 +1632,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf, id=1774, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf, id=1782, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1631,7 +1645,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_1_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf, id=1775, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf, id=1783, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1644,7 +1658,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_2_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf, id=1776, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf, id=1784, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1657,7 +1671,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_3_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf, id=1777, 569.12625pt x 543.028
+ker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf, id=1785, 569.12625pt x 543.028
 75pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1670,7 +1684,7 @@ nd_jets/Reco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_4_5TeV_Reco_track.pdf used on
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, id=1778, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, id=1786, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1683,7 +1697,7 @@ on input line 354.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf, id=1779, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf, id=1787, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_1_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1696,7 +1710,7 @@ on input line 357.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf, id=1780, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf, id=1788, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_2_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1709,7 +1723,7 @@ on input line 360.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf, id=1781, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf, id=1789, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1722,7 +1736,7 @@ on input line 363.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_Trac
-ker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf, id=1782, 569.12625pt x 543.0
+ker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf, id=1790, 569.12625pt x 543.0
 2875pt>
 File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
 _Tracker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf Graphic file (type pdf)
@@ -1733,12 +1747,12 @@ Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
 nd_jets/Reco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf used 
 on input line 366.
 (pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
-) [16] [17pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.11}) has been already used, duplicate ignored
+ [16] [17pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf, page is rotated 90 degrees> </
 Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5
@@ -1753,7 +1767,7 @@ figure.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf, page is rotated 90 degrees> </U
 sers/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/5T
@@ -1768,7 +1782,7 @@ e.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf, page is rotated 90 degrees> 
 </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
@@ -1783,7 +1797,7 @@ ier (name{figure.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf, page is rotated 90 degrees> <
 /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/
@@ -1798,7 +1812,7 @@ name{figure.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_BDT/BDT_plot_dR_dRplusID_5TeV_Reco.pdf, page is rotated 90 degrees> </Us
 ers/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_BDT/BDT_plot
@@ -1811,7 +1825,7 @@ ifier (name{figure.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_Tracker/5TeV_Reco_track/dR_PT_0_5TeV_Reco_track.pdf, page is rotated
  90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Rec
@@ -1827,7 +1841,7 @@ re.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 \newpage
+l.374 \newpage
                </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_0_40TeV_Reco_track.pdf, page is rotat
 ed 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
@@ -1839,6 +1853,1489 @@ eco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_3_40TeV_Reco_track.pdf, page is rotat
 ed 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
 eco_dR_Dis_Tracker/40TeV_Reco_track/dR_PT_4_40TeV_Reco_track.pdf, page is rotat
 ed 90 degrees>]
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_0.pdf used on inpu
+t line 381.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_1.pdf used on inpu
+t line 384.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_2.pdf used on inpu
+t line 387.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_3.pdf used on inpu
+t line 390.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_PT_4.pdf used on inpu
+t line 393.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_0.pdf used on input
+ line 397.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_1.pdf used on input
+ line 400.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_2.pdf used on input
+ line 403.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_3.pdf used on input
+ line 406.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/5TeV/h_5TeV_Reco_Particles_Rank_T_4.pdf used on input
+ line 409.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_0.pdf, id=3335, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_0.pdf used on in
+put line 419.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_1.pdf, id=3336, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_1.pdf used on in
+put line 422.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_2.pdf, id=3337, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_2.pdf used on in
+put line 425.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_3.pdf, id=3338, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_3.pdf used on in
+put line 428.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_4.pdf, id=3339, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_4.pdf used on in
+put line 431.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_T_0.pdf, id=3340, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_0.pdf used on inp
+ut line 435.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_T_1.pdf, id=3341, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_1.pdf used on inp
+ut line 438.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_T_2.pdf, id=3342, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_2.pdf used on inp
+ut line 441.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_T_3.pdf, id=3343, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_3.pdf used on inp
+ut line 444.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_T_4.pdf, id=3344, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_T_4.pdf used on inp
+ut line 447.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_0.pdf, id=3345, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_0.pdf used on in
+put line 457.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_1.pdf, id=3346, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_1.pdf used on in
+put line 460.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_2.pdf, id=3347, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_2.pdf used on in
+put line 463.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_3.pdf, id=3348, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_3.pdf used on in
+put line 466.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_4.pdf, id=3349, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_4.pdf used on in
+put line 469.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_T_0.pdf, id=3350, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_0.pdf used on inp
+ut line 473.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_T_1.pdf, id=3351, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_1.pdf used on inp
+ut line 476.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_T_2.pdf, id=3352, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_2.pdf used on inp
+ut line 479.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_T_3.pdf, id=3353, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_3.pdf used on inp
+ut line 482.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_T_4.pdf, id=3354, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_T_4.pdf used on inp
+ut line 485.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_0.pdf, id=3355, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_0.pdf used on in
+put line 495.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_1.pdf, id=3356, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_1.pdf used on in
+put line 498.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_2.pdf, id=3357, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_2.pdf used on in
+put line 501.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_3.pdf, id=3358, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_3.pdf used on in
+put line 504.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_4.pdf, id=3359, 569.12625pt x 543.02875p
+t>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_4.pdf used on in
+put line 507.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_T_0.pdf, id=3360, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_0.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_0.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_0.pdf used on inp
+ut line 511.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_T_1.pdf, id=3361, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_1.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_1.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_1.pdf used on inp
+ut line 514.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_T_2.pdf, id=3362, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_2.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_2.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_2.pdf used on inp
+ut line 517.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_T_3.pdf, id=3363, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_3.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_3.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_3.pdf used on inp
+ut line 520.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_T_4.pdf, id=3364, 569.12625pt x 543.02875pt
+>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_4.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_partic
+le_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_4.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_T_4.pdf used on inp
+ut line 523.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_PT_0_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_PT_0_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_PT_0_5TeV_Truth.pdf used on input line 534.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_PT_1_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_PT_1_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_PT_1_5TeV_Truth.pdf used on input line 537.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_PT_2_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_PT_2_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_PT_2_5TeV_Truth.pdf used on input line 540.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_PT_3_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_PT_3_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_PT_3_5TeV_Truth.pdf used on input line 543.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_PT_4_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_PT_4_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_PT_4_5TeV_Truth.pdf used on input line 546.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_T_0_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_T_0_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_T_0_5TeV_Truth.pdf used on input line 550.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_T_1_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_T_1_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_T_1_5TeV_Truth.pdf used on input line 553.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_T_2_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_T_2_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_T_2_5TeV_Truth.pdf used on input line 556.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_T_3_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_T_3_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_T_3_5TeV_Truth.pdf used on input line 559.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/5TeV/dR_T_4_5TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/5TeV/dR_T_4_5TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/5TeV/dR_T_4_5TeV_Truth.pdf used on input line 562.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_PT_0_10TeV_Truth.pdf, id=3365, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_PT_0_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_PT_0_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_PT_0_10TeV_Truth.pdf used on input line 573.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_PT_1_10TeV_Truth.pdf, id=3366, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_PT_1_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_PT_1_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_PT_1_10TeV_Truth.pdf used on input line 576.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_PT_2_10TeV_Truth.pdf, id=3367, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_PT_2_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_PT_2_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_PT_2_10TeV_Truth.pdf used on input line 579.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_PT_3_10TeV_Truth.pdf, id=3368, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_PT_3_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_PT_3_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_PT_3_10TeV_Truth.pdf used on input line 582.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_PT_4_10TeV_Truth.pdf, id=3369, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_PT_4_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_PT_4_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_PT_4_10TeV_Truth.pdf used on input line 585.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_T_0_10TeV_Truth.pdf, id=3370, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_T_0_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_T_0_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_T_0_10TeV_Truth.pdf used on input line 589.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_T_1_10TeV_Truth.pdf, id=3371, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_T_1_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_T_1_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_T_1_10TeV_Truth.pdf used on input line 592.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_T_2_10TeV_Truth.pdf, id=3372, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_T_2_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_T_2_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_T_2_10TeV_Truth.pdf used on input line 595.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_T_3_10TeV_Truth.pdf, id=3373, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_T_3_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_T_3_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_T_3_10TeV_Truth.pdf used on input line 598.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10T
+eV/dR_T_4_10TeV_Truth.pdf, id=3374, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/10TeV/dR_T_4_10TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/10TeV/dR_T_4_10TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/10TeV/dR_T_4_10TeV_Truth.pdf used on input line 601.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_PT_0_20TeV_Truth.pdf, id=3375, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_PT_0_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_PT_0_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_PT_0_20TeV_Truth.pdf used on input line 612.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_PT_1_20TeV_Truth.pdf, id=3376, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_PT_1_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_PT_1_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_PT_1_20TeV_Truth.pdf used on input line 615.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_PT_2_20TeV_Truth.pdf, id=3377, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_PT_2_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_PT_2_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_PT_2_20TeV_Truth.pdf used on input line 618.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_PT_3_20TeV_Truth.pdf, id=3378, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_PT_3_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_PT_3_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_PT_3_20TeV_Truth.pdf used on input line 621.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_PT_4_20TeV_Truth.pdf, id=3379, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_PT_4_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_PT_4_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_PT_4_20TeV_Truth.pdf used on input line 624.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_T_0_20TeV_Truth.pdf, id=3380, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_T_0_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_T_0_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_T_0_20TeV_Truth.pdf used on input line 628.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_T_1_20TeV_Truth.pdf, id=3381, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_T_1_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_T_1_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_T_1_20TeV_Truth.pdf used on input line 631.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_T_2_20TeV_Truth.pdf, id=3382, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_T_2_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_T_2_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_T_2_20TeV_Truth.pdf used on input line 634.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_T_3_20TeV_Truth.pdf, id=3383, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_T_3_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_T_3_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_T_3_20TeV_Truth.pdf used on input line 637.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20T
+eV/dR_T_4_20TeV_Truth.pdf, id=3384, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/20TeV/dR_T_4_20TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/20TeV/dR_T_4_20TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/20TeV/dR_T_4_20TeV_Truth.pdf used on input line 640.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_PT_0_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_PT_0_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_PT_0_40TeV_Truth.pdf used on input line 651.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_PT_1_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_PT_1_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_PT_1_40TeV_Truth.pdf used on input line 654.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_PT_2_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_PT_2_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_PT_2_40TeV_Truth.pdf used on input line 657.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_PT_3_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_PT_3_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_PT_3_40TeV_Truth.pdf used on input line 660.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_PT_4_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_PT_4_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_PT_4_40TeV_Truth.pdf used on input line 663.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_T_0_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_T_0_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_T_0_40TeV_Truth.pdf used on input line 667.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_T_1_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_T_1_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_T_1_40TeV_Truth.pdf used on input line 670.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_T_2_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_T_2_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_T_2_40TeV_Truth.pdf used on input line 673.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_T_3_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_T_3_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_T_3_40TeV_Truth.pdf used on input line 676.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Di
+s/40TeV/dR_T_4_40TeV_Truth.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis
+/40TeV/dR_T_4_40TeV_Truth.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Truth_dR_Dis/40TeV/dR_T_4_40TeV_Truth.pdf used on input line 679.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_0_5TeV_Reco.pdf used on input line 694
+.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_1_5TeV_Reco.pdf used on input line 697
+.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_2_5TeV_Reco.pdf used on input line 700
+.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_3_5TeV_Reco.pdf used on input line 703
+.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_PT_4_5TeV_Reco.pdf used on input line 706
+.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_0_5TeV_Reco.pdf used on input line 710.
+
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_1_5TeV_Reco.pdf used on input line 713.
+
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_2_5TeV_Reco.pdf used on input line 716.
+
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_3_5TeV_Reco.pdf used on input line 719.
+
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/5TeV_Reco/dR_T_4_5TeV_Reco.pdf used on input line 722.
+
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_0_10TeV_Reco.pdf, id=3385, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_PT_0_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_PT_0_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_0_10TeV_Reco.pdf used on input line 7
+33.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_1_10TeV_Reco.pdf, id=3386, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_PT_1_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_PT_1_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_1_10TeV_Reco.pdf used on input line 7
+36.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_2_10TeV_Reco.pdf, id=3387, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_PT_2_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_PT_2_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_2_10TeV_Reco.pdf used on input line 7
+39.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_3_10TeV_Reco.pdf, id=3388, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_PT_3_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_PT_3_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_3_10TeV_Reco.pdf used on input line 7
+42.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_4_10TeV_Reco.pdf, id=3389, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_PT_4_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_PT_4_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_4_10TeV_Reco.pdf used on input line 7
+45.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_T_0_10TeV_Reco.pdf, id=3390, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_T_0_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_T_0_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_0_10TeV_Reco.pdf used on input line 74
+9.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_T_1_10TeV_Reco.pdf, id=3391, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_T_1_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_T_1_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_1_10TeV_Reco.pdf used on input line 75
+2.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_T_2_10TeV_Reco.pdf, id=3392, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_T_2_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_T_2_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_2_10TeV_Reco.pdf used on input line 75
+5.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_T_3_10TeV_Reco.pdf, id=3393, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_T_3_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_T_3_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_3_10TeV_Reco.pdf used on input line 75
+8.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_T_4_10TeV_Reco.pdf, id=3394, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/10TeV_Reco/dR_T_4_10TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/10TeV_Reco/dR_T_4_10TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_4_10TeV_Reco.pdf used on input line 76
+1.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_0_20TeV_Reco.pdf, id=3395, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_PT_0_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_PT_0_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_0_20TeV_Reco.pdf used on input line 7
+71.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_1_20TeV_Reco.pdf, id=3396, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_PT_1_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_PT_1_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_1_20TeV_Reco.pdf used on input line 7
+74.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_2_20TeV_Reco.pdf, id=3397, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_PT_2_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_PT_2_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_2_20TeV_Reco.pdf used on input line 7
+77.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_3_20TeV_Reco.pdf, id=3398, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_PT_3_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_PT_3_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_3_20TeV_Reco.pdf used on input line 7
+80.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_4_20TeV_Reco.pdf, id=3399, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_PT_4_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_PT_4_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_4_20TeV_Reco.pdf used on input line 7
+83.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_T_0_20TeV_Reco.pdf, id=3400, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_T_0_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_T_0_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_0_20TeV_Reco.pdf used on input line 78
+7.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_T_1_20TeV_Reco.pdf, id=3401, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_T_1_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_T_1_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_1_20TeV_Reco.pdf used on input line 79
+0.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_T_2_20TeV_Reco.pdf, id=3402, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_T_2_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_T_2_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_2_20TeV_Reco.pdf used on input line 79
+3.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_T_3_20TeV_Reco.pdf, id=3403, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_T_3_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_T_3_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_3_20TeV_Reco.pdf used on input line 79
+6.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_T_4_20TeV_Reco.pdf, id=3404, 569.12625pt x 543.02875pt>
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/20TeV_Reco/dR_T_4_20TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/20TeV_Reco/dR_T_4_20TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_4_20TeV_Reco.pdf used on input line 79
+9.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_0_40TeV_Reco.pdf used on input line 8
+09.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_1_40TeV_Reco.pdf used on input line 8
+12.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_2_40TeV_Reco.pdf used on input line 8
+15.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_3_40TeV_Reco.pdf used on input line 8
+18.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_PT_4_40TeV_Reco.pdf used on input line 8
+21.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_0_40TeV_Reco.pdf used on input line 82
+5.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_1_40TeV_Reco.pdf used on input line 82
+8.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_2_40TeV_Reco.pdf used on input line 83
+1.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_3_40TeV_Reco.pdf used on input line 83
+4.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+File: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis
+_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf Graphic file (type pdf)
+
+<use /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_
+ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf>
+Package pdftex.def Info: /Users/ms08962476/Timing_paper/Pictures_used_for_FCC_a
+nd_jets/Reco_dR_Dis_ECAL/40TeV_Reco/dR_T_4_40TeV_Reco.pdf used on input line 83
+7.
+(pdftex.def)             Requested size: 123.77074pt x 118.09122pt.
+) [24] [25pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+              ] [26pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/T
+ruth_particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_0.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_
+particle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_1.pdf, page is rotated 90 degr
+ees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/10TeV/h_10TeV_Reco_Particles_Rank_PT_2.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/10TeV/h_10TeV_Reco_Particles_Rank_PT_3.pdf, page is rotated 90 degrees> </Use
+rs/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/10T
+eV/h_10TeV_Reco_Particles_Rank_PT_4.pdf, page is rotated 90 degrees> </Users/ms
+08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/10TeV/h_
+10TeV_Reco_Particles_Rank_T_0.pdf, page is rotated 90 degrees> </Users/ms089624
+76/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/10TeV/h_10TeV_
+Reco_Particles_Rank_T_1.pdf, page is rotated 90 degrees> </Users/ms08962476/Tim
+ing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_P
+articles_Rank_T_2.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pa
+per/Pictures_used_for_FCC_and_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particl
+es_Rank_T_3.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pi
+ctures_used_for_FCC_and_jets/Truth_particle_ID/10TeV/h_10TeV_Reco_Particles_Ran
+k_T_4.pdf, page is rotated 90 degrees>] [27pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.20}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/T
+ruth_particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_0.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_
+particle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_1.pdf, page is rotated 90 degr
+ees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/20TeV/h_20TeV_Reco_Particles_Rank_PT_2.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/20TeV/h_20TeV_Reco_Particles_Rank_PT_3.pdf, page is rotated 90 degrees> </Use
+rs/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/20T
+eV/h_20TeV_Reco_Particles_Rank_PT_4.pdf, page is rotated 90 degrees> </Users/ms
+08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/20TeV/h_
+20TeV_Reco_Particles_Rank_T_0.pdf, page is rotated 90 degrees> </Users/ms089624
+76/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/20TeV/h_20TeV_
+Reco_Particles_Rank_T_1.pdf, page is rotated 90 degrees> </Users/ms08962476/Tim
+ing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_P
+articles_Rank_T_2.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pa
+per/Pictures_used_for_FCC_and_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particl
+es_Rank_T_3.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pi
+ctures_used_for_FCC_and_jets/Truth_particle_ID/20TeV/h_20TeV_Reco_Particles_Ran
+k_T_4.pdf, page is rotated 90 degrees>] [28pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.21}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/T
+ruth_particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_0.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_
+particle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_1.pdf, page is rotated 90 degr
+ees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_parti
+cle_ID/40TeV/h_40TeV_Reco_Particles_Rank_PT_2.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_I
+D/40TeV/h_40TeV_Reco_Particles_Rank_PT_3.pdf, page is rotated 90 degrees> </Use
+rs/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/40T
+eV/h_40TeV_Reco_Particles_Rank_PT_4.pdf, page is rotated 90 degrees> </Users/ms
+08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/40TeV/h_
+40TeV_Reco_Particles_Rank_T_0.pdf, page is rotated 90 degrees> </Users/ms089624
+76/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/40TeV/h_40TeV_
+Reco_Particles_Rank_T_1.pdf, page is rotated 90 degrees> </Users/ms08962476/Tim
+ing_paper/Pictures_used_for_FCC_and_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_P
+articles_Rank_T_2.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pa
+per/Pictures_used_for_FCC_and_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particl
+es_Rank_T_3.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pi
+ctures_used_for_FCC_and_jets/Truth_particle_ID/40TeV/h_40TeV_Reco_Particles_Ran
+k_T_4.pdf, page is rotated 90 degrees>] [29pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.22}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+              ] [30pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/T
+ruth_dR_Dis/10TeV/dR_PT_0_10TeV_Truth.pdf, page is rotated 90 degrees> </Users/
+ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_PT
+_1_10TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper
+/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_PT_2_10TeV_Truth.pdf, pag
+e is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_
+and_jets/Truth_dR_Dis/10TeV/dR_PT_3_10TeV_Truth.pdf, page is rotated 90 degrees
+> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/1
+0TeV/dR_PT_4_10TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Ti
+ming_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_T_0_10TeV_Truth
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_T_1_10TeV_Truth.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_
+dR_Dis/10TeV/dR_T_2_10TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms0896
+2476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_T_3_10Te
+V_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictur
+es_used_for_FCC_and_jets/Truth_dR_Dis/10TeV/dR_T_4_10TeV_Truth.pdf, page is rot
+ated 90 degrees>] [31pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/T
+ruth_dR_Dis/20TeV/dR_PT_0_20TeV_Truth.pdf, page is rotated 90 degrees> </Users/
+ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_PT
+_1_20TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper
+/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_PT_2_20TeV_Truth.pdf, pag
+e is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_
+and_jets/Truth_dR_Dis/20TeV/dR_PT_3_20TeV_Truth.pdf, page is rotated 90 degrees
+> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/2
+0TeV/dR_PT_4_20TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Ti
+ming_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_T_0_20TeV_Truth
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_T_1_20TeV_Truth.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_
+dR_Dis/20TeV/dR_T_2_20TeV_Truth.pdf, page is rotated 90 degrees> </Users/ms0896
+2476/Timing_paper/Pictures_used_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_T_3_20Te
+V_Truth.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictur
+es_used_for_FCC_and_jets/Truth_dR_Dis/20TeV/dR_T_4_20TeV_Truth.pdf, page is rot
+ated 90 degrees>] [32pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+              ] [33pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+              ] [34pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/10TeV_Reco/dR_PT_0_10TeV_Reco.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/10TeV_Reco/dR_PT_1_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962
+476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_
+PT_2_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pape
+r/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_3_10TeV_Reco
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_PT_4_10TeV_Reco.pdf, page is r
+otated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_je
+ts/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_0_10TeV_Reco.pdf, page is rotated 90 degree
+s> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_E
+CAL/10TeV_Reco/dR_T_1_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms089
+62476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/d
+R_T_2_10TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pap
+er/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_3_10TeV_Reco
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Reco_dR_Dis_ECAL/10TeV_Reco/dR_T_4_10TeV_Reco.pdf, page is ro
+tated 90 degrees>] [35pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+               </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/R
+eco_dR_Dis_ECAL/20TeV_Reco/dR_PT_0_20TeV_Reco.pdf, page is rotated 90 degrees> 
+</Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL
+/20TeV_Reco/dR_PT_1_20TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962
+476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_
+PT_2_20TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pape
+r/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_3_20TeV_Reco
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_PT_4_20TeV_Reco.pdf, page is r
+otated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_je
+ts/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_0_20TeV_Reco.pdf, page is rotated 90 degree
+s> </Users/ms08962476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_E
+CAL/20TeV_Reco/dR_T_1_20TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms089
+62476/Timing_paper/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/d
+R_T_2_20TeV_Reco.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_pap
+er/Pictures_used_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_3_20TeV_Reco
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Timing_paper/Pictures_used
+_for_FCC_and_jets/Reco_dR_Dis_ECAL/20TeV_Reco/dR_T_4_20TeV_Reco.pdf, page is ro
+tated 90 degrees>] [36pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 \newpage
+              ]
 No file fcc_timing.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -1849,14 +3346,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
 Package rerunfilecheck Info: File `fcc_timing.out' has not changed.
-(rerunfilecheck)             Checksum: 65A8BDE0FB8BBF6EF97D6CB2EE1E8F07;844.
+(rerunfilecheck)             Checksum: 6B055040AD28FF29B1F2359D7CA8622E;902.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 9832 strings out of 492995
- 169807 string characters out of 6132704
- 269541 words of memory out of 5000000
- 12991 multiletter control sequences out of 15000+600000
+ 10343 strings out of 492995
+ 207563 string characters out of 6132704
+ 289166 words of memory out of 5000000
+ 13279 multiletter control sequences out of 15000+600000
  14223 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,40p,1531b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1877,10 +3378,10 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fcc_timing.pdf (23 pages, 1165213 bytes).
+Output written on fcc_timing.pdf (36 pages, 2043058 bytes).
 PDF statistics:
- 3411 PDF objects out of 3580 (max. 8388607)
- 1590 compressed objects within 16 object streams
- 134 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6727 PDF objects out of 7423 (max. 8388607)
+ 3058 compressed objects within 31 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 807 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -27,7 +27,7 @@ for E in range(4):
             h2 = TH1F ("WW_plot","WW_plot",100,0,0.5)
             for iii in range(int(myTree_QQ.GetEntriesFast())):
                 myTree_QQ.GetEntry(iii)
-                A      = myTree_QQ.dR_Tr1T_HPt
+                A      = myTree_QQ.dR_Tr0T_HPt
                 B      = myTree_QQ.dR_Tr1T_HPt
                 C      = myTree_QQ.dR_Tr2T_HPt
                 D      = myTree_QQ.dR_Tr3T_HPt
