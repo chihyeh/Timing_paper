@@ -13,7 +13,7 @@ from ROOT import TPaveText
 from ROOT import TLatex
 from array import array
 
-f1= ROOT.TFile.Open("/Users/ms08962476/singularity/TIming_Studies/tev5mm_pythia6_zprime5tev_ww_with_Eta_cut_for_component_check_truth.root",'r')
+f1= ROOT.TFile.Open("/Users/ms08962476/singularity/TIming_Studies/tev5mm_pythia6_zprime5tev_qq_with_Eta_cut_for_component_check_truth.root",'r')
 
 h1 = f1.Get("h_Particles_Rank_T_vs_PT0")
 
@@ -28,9 +28,9 @@ leg.SetBorderSize(0)
 leg.SetTextFont(22)
 leg.Draw()
 h1.GetXaxis().SetRangeUser(0,8)
-h1.GetYaxis().SetRangeUser(0,1000)
+h1.GetYaxis().SetRangeUser(0,3)
 h1.SetXTitle("Particle ID")
-h1.SetYTitle("PT")
+h1.SetYTitle("Log(PT)")
 h1.SetZTitle("Arbitrary number")
 
 
@@ -95,7 +95,7 @@ h1.GetYaxis().SetLabelFont(22)
 
 h1.Draw("colz")
 
-c.Print("ID_PT_Correlation_WW.pdf")
+c.Print("ID_PT_Correlation_QQ.pdf")
 
 
 
