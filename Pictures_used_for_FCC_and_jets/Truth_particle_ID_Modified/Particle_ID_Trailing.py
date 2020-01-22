@@ -89,7 +89,7 @@ for E in range(1):
             h4.SetMarkerStyle(9)
             h5.SetMarkerStyle(9)
 
-            h1.GetXaxis().SetRangeUser(0,8)
+            h1.GetXaxis().SetRangeUser(0,7)
             h1.GetYaxis().SetRangeUser(0,1)
             h1.GetYaxis().SetRangeUser(0,1)
 
@@ -97,11 +97,10 @@ for E in range(1):
             t1 =  TLatex(0.3,.1,"e^{-}");
             t2 =  TLatex(1.3,.1,"#mu^{-}");
             t3 =  TLatex(2.1,.1,"K_{L}^{0}");
-            t4 =  TLatex(3.1,.1,"K_{S}^{0}");
-            t5 =  TLatex(4.3,.1,"#pi^{+}");
-            t6 =  TLatex(5.1,.1,"K^{+}");
-            t7 =  TLatex(6.3,.1,"n");
-            t8 =  TLatex(7.3,.1,"p");
+            t5 =  TLatex(3.3,.1,"#pi^{+}");
+            t6 =  TLatex(4.1,.1,"K^{+}");
+            t7 =  TLatex(5.3,.1,"n");
+            t8 =  TLatex(6.3,.1,"p");
 
 
 #h1.SetTitle("Trailing Particle ID(5TeV)"+str(list_PT_T[j])+"_"+str(i))
@@ -141,7 +140,6 @@ for E in range(1):
             t1.Draw("same")
             t2.Draw("same")
             t3.Draw("same")
-            t4.Draw("same")
             t5.Draw("same")
             t6.Draw("same")
             t7.Draw("same")
