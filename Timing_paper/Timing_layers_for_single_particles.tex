@@ -1,8 +1,8 @@
 \section{Timing layers for single particles}
 
-Before considering the full Geant4 simulation, let us discuss the benefit of the TOF information
-for identification of separate particles, either SM particles or BSM particles . 
-
+Now let us discuss the kinematic regions for the TOF measurements in relation to
+either SM particles or BSM particles. 
+ 
 For an estimation of the separation power between different mass hypotheses, we will
 calculate the mass and momentum for which one can achieve separation significance higher than $3\sigma$ (or $p$-val$<0.03$)
 If we have two particles with masses $m$ and a reference (fixed) mass $m_F$, the $3\sigma$ separation can be 
@@ -57,7 +57,7 @@ $3\sigma$ separation for a wide range of masses and momentum.
 For most future experiments the distance between the 
 interaction point and the first layer of the electromagnetic calorimeter is 
 $L=1.5-2.5$~m. For a representative purpose, we will use $L=2$~m and consider 0.2~m for the  separation
-distance between the two timing layers.
+distance between the TL2 and TL1 timing layers.
 
 Figure~\ref{fig:signgleBSM} shows the particle identification power for different choices of the timing layer resolution
 and the distance $L=L_1$ to the first timing layer (see Fig.~\ref{fig:eff_rad}).
@@ -67,12 +67,11 @@ but only up to 50~GeV using the standard 1~ns calorimeter.
 
 One can also consider a  measurement that does not involve a priory knowledge  of the vertex, thus can be better
 designed for neutral particles in collisions with large pile-up (multiple number of vertexes).  
-In the case the TOF is measured between the two layers, $TL_1$ and $TL_2$, assuming a successful spacial match of the hits.
-The identification power in the case when $L=L_2 = 0.2$~m is shown in Figure~\ref{fig:signgleBSM}(b).
-For a 100~GeV stable particle, the identification is possible up to about 100~GeV. The standard calorimeter with
-$1$~ns resolution can perform the identification up to $20$~GeV 
-    
+In the case the TOF is measured between the two layers, TL1 and TL2, assuming a successful spacial match of the hits.
 
+The identification power in the case when the distance between TL2 and TL1 is 0.2~m is shown in Figure~\ref{fig:signgleBSM}(b).
+For a 100~GeV stable particle, the identification is possible up to about 100~GeV. The standard calorimeter with
+$1$~ns resolution can perform the identification up to $20$~GeV. 
 
 \begin{figure}
 \begin{center}
