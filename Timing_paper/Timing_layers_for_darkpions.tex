@@ -1,0 +1,87 @@
+\section{Showcase for the Dark QCD model}
+\label{darksec}
+
+The arguments discussed before can be illustrated using a concrete physics scenario.
+In particular, we will consider the dark QCD model \cite{Bai:2013xga,Schwaller:2015gea} which predicts 
+``emerging'' jets 
+that are created in the decays of new long-lived neutral 
+particles (dark hadrons), produced in a parton-shower process by dark QCD.
+The final-state signature consists of four high transverse momentum jets, two of which 
+are from two from dark quarks. These two ``emerging'' jets contain many displaced
+vertices arising from the decays of the dark pions produced in the dark parton shower.
+Recently searches for such emerging jets have been performed \cite{Sirunyan:2018njd} 
+by the CMS Collaboration.
+
+We will be interested in the efficiency of the reconstruction of dark mesons  as a function of their mass
+and the lifetime.    
+The $pp$ collision event samples  are generated with the ``hidden valley'' model framework in PYTHIA 8.2 assuming
+the HE-LHC center of mass energy of 27~TeV. The Monte Carlo settings for the signal model were similar
+to those discussed in  \cite{Sirunyan:2018njd}, but then were further tuned \cite{prive} to obtain samples  which were most suitable
+for the detector performance studies. 
+The mass of the mediator was set to 10~TeV, while the mass of the dark pion was varied in the range between 5 and 1000 GeV.
+The dark pion proper decay length, $c\tau$,  was varied between 1 and 1000~mm (independent of its mass). Other parameters
+were also appropriately modified to allow a sufficient phase space for the dark meson production.
+The mass of the dark pion is assumed to be one half the mass of the dark quark. The mass of the dark
+$\rho$  meson was also modified, and is taken to be larger by 10~GeV than the mass of the dark pion. The width of the
+mediator particle is assumed to be small as compared with the detector mass resolution.
+
+Dark pion decay length defines the distance from the interaction point where a jet emerges. The  emerging jet contains multiple displaced vertices,
+which con be reconstructed using a tracker  \cite{Sirunyan:2018njd}. 
+Such jets can also be reconstructed using the calorimeter  with the timing layers. This method is expected
+to have advantage when the dark pion decay length is significant and the tracker cannot be efficient in reconstructing such tracks. 
+It was also pointed out \cite{Schwaller:2015gea} that the emerging jets may have significant fraction of neutral particles and the reconstruction
+using charged tracks can have a low efficiency.  
+
+To estimate the performance of the timing layers in reconstructing emerging jets, 
+we will use the formalism based on Eq.~\ref{eqTOF}, where $L=c\tau$, and $m$ is the mass
+of the dark photon, i.e. $L$ can be considered as a travel distance. After the dark pion creates a Standard Model jet, we assume that
+such jets travel to the surface of the timing layer with the same speed for all values of $m$.
+For the timing layers, the signature of emerging jets is time delays compared to the other (Standard Model) jets. The  production vertex
+cannot be observed by the timing layers if such jets emerges before TL1\footnote{It is possible that if such jets is created in the area between TL1 and TL2,
+such signatures can also be detected, but we will not consider this case.}
+After events being generated, the weighted average of decay distances of all particles that originate from
+the dark mesons, using the particle momentum as the weight, was calculated. This decay distance is used 
+to approximate the decay length, without using jet reconstruction.  Then the decay length (expressed in meters),  
+momentum and the mass of the dark meson were used as the input for Eq.~\ref{eqTOF}.
+The  calculation for the $3\sigma$ separation will be performed using $m_F=m_{\alpha}\simeq 3.73$~GeV although such a choice can be rather arbitrary.
+This value of $m_F$ is used to give a conservative estimate of the arrival time of the Standard Model jets. 
+(One can argue that the Standard Model jets mainly consist of light-flavour hadrons and photons, therefore, $m_F$ is significantly lower). 
+
+The efficiency of reconstruction of the emerging jets by measuring the timing information was calculated by counting the number of events that pass the 
+Eq.~\ref{eqTOF} conditions  with the parameters as discussed before, divided by the total number of entries
+without this requirement. Figure~\ref{fig:efficiency} shows the efficiency
+as a function of the $c\tau$ and the mass of the dark pion. It can be seen that a detector with the standard 1~ns resolution does
+not have acceptance for the dark meson measurements. The acceptance is significantly larger for the timing layers smaller than 100~ns.
+The acceptance is small for low $c\tau$ or small masses, which is the expected feature of the timing measurement.
+The timing layers with 20~ns have almots 100\% efficiency for large values of $c\tau$ and dark-meson masses.
+
+\begin{figure}
+\begin{center}
+   \subfigure[10 ps] {
+   \includegraphics[width=0.41\textwidth]{effic10a.pdf}
+   }
+   \subfigure[20 ps] {
+   \includegraphics[width=0.41\textwidth]{effic20a.pdf}\hfill
+   }
+
+   \subfigure[30 ps] {
+   \includegraphics[width=0.41\textwidth]{effic30a.pdf}
+   }
+   \subfigure[100 ps] {
+   \includegraphics[width=0.41\textwidth]{effic100a.pdf}\hfill
+   }
+
+   \subfigure[500 ps] {
+   \includegraphics[width=0.41\textwidth]{effic500a.pdf}
+   }
+   \subfigure[1000 ps] {
+   \includegraphics[width=0.41\textwidth]{effic1000a.pdf}\hfill 
+   }
+
+\end{center}
+\caption{
+The efficiency for the reconstruction of emerging jets using the timing layers with different timing resolutions. 
+}
+\label{fig:efficiency}
+\end{figure}
+

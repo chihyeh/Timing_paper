@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -58,5 +58,28 @@ O.~Cerri, S.~Xie, C.~Pena, M.~Spiropulu, {Identification of Long-lived Charged
 \newblock \href {http://arxiv.org/abs/1807.05453} {\path{arXiv:1807.05453}},
   \href {http://dx.doi.org/10.1007/JHEP04(2019)037}
   {\path{doi:10.1007/JHEP04(2019)037}}.
+
+\bibitem{Bai:2013xga}
+Y.~Bai, P.~Schwaller, {Scale of dark QCD}, Phys. Rev. D89~(6) (2014) 063522.
+\newblock \href {http://arxiv.org/abs/1306.4676} {\path{arXiv:1306.4676}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.063522}
+  {\path{doi:10.1103/PhysRevD.89.063522}}.
+
+\bibitem{Schwaller:2015gea}
+P.~Schwaller, D.~Stolarski, A.~Weiler, {Emerging Jets}, JHEP 05 (2015) 059.
+\newblock \href {http://arxiv.org/abs/1502.05409} {\path{arXiv:1502.05409}},
+  \href {http://dx.doi.org/10.1007/JHEP05(2015)059}
+  {\path{doi:10.1007/JHEP05(2015)059}}.
+
+\bibitem{Sirunyan:2018njd}
+CMS~Collaboration, A.~M. Sirunyan, et~al., {Search for new particles decaying
+  to a jet and an emerging jet}, JHEP 02 (2019) 179.
+\newblock \href {http://arxiv.org/abs/1810.10069} {\path{arXiv:1810.10069}},
+  \href {http://dx.doi.org/10.1007/JHEP02(2019)179}
+  {\path{doi:10.1007/JHEP02(2019)179}}.
+
+\bibitem{prive}
+K.~Pedro, P.~Schwaller, Private communication. We thank Dr. P.Kevin and
+  P.Schwaller for help with the setup of Monte Carlo generation parameters.
 
 \end{thebibliography}
