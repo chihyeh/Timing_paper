@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: fcc_timing.aux
 The style file: elsarticle-num.bst
@@ -6,45 +6,45 @@ Database file #1: biblio.bib
 Warning--empty journal in Behnke:2013xla
 Warning--empty journal in Benedikt:2206376
 Warning--empty pages in Ahmed:2019sim
-You've used 8 entries,
+You've used 12 entries,
             2955 wiz_defined-function locations,
-            738 strings with 7148 characters,
-and the built_in function-call counts, 2423 in all, are:
-= -- 209
-> -- 107
+            769 strings with 7748 characters,
+and the built_in function-call counts, 3556 in all, are:
+= -- 323
+> -- 138
 < -- 0
-+ -- 41
-- -- 33
-* -- 201
-:= -- 357
-add.period$ -- 13
-call.type$ -- 8
-change.case$ -- 8
++ -- 54
+- -- 42
+* -- 298
+:= -- 506
+add.period$ -- 20
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 74
-empty$ -- 266
-format.name$ -- 40
-if$ -- 613
+cite$ -- 15
+duplicate$ -- 108
+empty$ -- 395
+format.name$ -- 53
+if$ -- 908
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 8
-newline$ -- 40
-num.names$ -- 8
-pop$ -- 57
+int.to.str$ -- 12
+missing$ -- 11
+newline$ -- 55
+num.names$ -- 12
+pop$ -- 76
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 150
+skip$ -- 231
 stack$ -- 0
-substring$ -- 40
-swap$ -- 23
+substring$ -- 76
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 11
-width$ -- 9
-write$ -- 84
+while$ -- 18
+width$ -- 14
+write$ -- 125
 (There were 3 warnings)
