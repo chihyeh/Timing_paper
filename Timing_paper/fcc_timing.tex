@@ -342,7 +342,8 @@ If a resolution of the timing layer will be of the order of 10 -- 20~ps, a physi
 
 Figure~\ref{fig:timediff} also shows the hit distribution for (anti)deutrons, denoted as $d^{\pm}$. The distribution are significantly different from $\pi^{\pm}$. On average, 1 GeV
 (anti)deutrons should be measured with the time delay of 0.7 -- 1.4~ns between the last and first layers.
-The value 0.7 was estimated from the mean position of the Landau distribution used to fit the $d^{\pm}$ curve presented in Figure~\ref{fig:timediff}(a),
+The value of 0.7~ns was estimated from the mean position of the Landau distribution used to fit the $d^{\pm}$ 
+curve presented in Figure~\ref{fig:timediff}(a),
 while 1.4~ns was obtained for the mean of this distribution. Even for the most conservative 0.7~ns value, there is an indication that 1~GeV
 deutrons can be separated from pions that have 0.5~ns time difference. Such a separation can be observed when using a tens-of-picosecond detector.
 For 10~GeV particles presented in Figure~\ref{fig:timediff}(b), separation between $d^{\pm}$ and $\pi^{\pm}$ cannot be observed.
@@ -364,8 +365,8 @@ particles is possible.
    \includegraphics[width=0.45\textwidth]{timeECAL_2layers_10gev1.pdf}\hfill
    }
 \end{center}
-\caption{The difference between time of hits between the last and first layer of ECAL for single pions with the transverse momentum 1 and 10 GeV. 
-Only first (fastest) hits were considered}
+\caption{The difference between time of hits between the last and first layer of ECAL for single pions and deutrons with the transverse momentum 1 and 10 GeV. 
+Only first (fastest) hits were considered to calculate the difference in TOF. }
 \label{fig:timediff}
 \end{figure}
 
@@ -383,6 +384,13 @@ Only first (fastest) hits were considered}
 
 %\input{Timing_layers_for_FCC_and_jets.tex}
 
+
+\section{Summary}
+
+This paper discusses the benefits of the timing layers positioned in front of the hadronic calorimeters.
+We have illustrated how such layers can be used for single particle identification, jets measurements, and
+identification of heavy long-lived particles in the context of the dark QCD model.
+
 \newpage
 %%%%%%%%%%%%%%%%%%%%%% references %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section*{References}
@@ -393,5 +401,11 @@ Only first (fastest) hits were considered}
 %\pagestyle{plain}
 \bibliography{biblio}
 
+\clearpage
+\appendix
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\section*{Appendices}
+\addcontentsline{toc}{section}{Appendices}
+\input{appendix.tex}
 
 \end{document}
