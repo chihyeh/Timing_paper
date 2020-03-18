@@ -335,20 +335,22 @@ The distance between the centers of the last and first ECAL layer is about 240~m
 
 To verify that the time differences between last and first layer of ECAL is close to the time
 required for a particle that travels with the speed of light, and can be neglected for the timing layers that
-have a timing resolution of the order of 1~ns, a sample of single pions was created with 1 and 10~GeV momentum. The
-pseudorapidity for all such particles was $\eta=0$ (central region). 
+have a timing resolution of the order of 1~ns, a sample of single pions ($\pi^\pm$) was created with 1 and 10~GeV momentum. The
+pseudorapidity for all pions was $\eta=0$ (central region). 
 The particles were reconstructed in the ECAL calorimeter,
 and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
-Only hits that arrive first were considered.
+Only hits that arrive first were considered since electronics typically register fastest hits (while slower hits can be saved in pipeline buffers).
 
-Figure~\ref{fig:timediff} shows the time distribution for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
-than 1~ns, as expected for the distance of about 20~cm between  the centers of the last and first layers.
-%\footnote{The precision with which the simulations were performed are about 0.2-0.3~ns}. More importantly, the RMS of these distributions are significantly smaller than the 10~ns. 
-Therefore, hits will be simultaneous for the
+Figure~\ref{fig:timediff} shows the time distribution of first arriving hits 
+for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
+than 1~ns, as expected for the distance of about 20~cm between  the centers of the last and first ECAL layers.
+Therefore, the hits registered by TL1 and TL2 will be simultaneous for the
 standard 1~ns resolution, i.e. well correlated in time and are identified as a single crossing particle.
 If a resolution of the timing layer will be of the order of 10 -- 20~ps, a physics measurement of TOF would be possible.
 
-Figure~\ref{fig:timediff} also shows the hit distribution for (anti)deutrons, denoted as $d^{\pm}$. The distribution are significantly different from $\pi^{\pm}$. On average, 1 GeV
+To check the latter point, 
+Figure~\ref{fig:timediff} shows the hit distribution for (anti)deutrons, denoted as $d^{\pm}$. 
+The distributions are significantly different from the $\pi^{\pm}$ case. On average, 1~GeV
 (anti)deutrons should be measured with the time delay of 0.7 -- 1.4~ns between the last and first layers.
 The value of 0.7~ns was estimated from the mean position of the Landau distribution used to fit the $d^{\pm}$ 
 curve presented in Figure~\ref{fig:timediff}(a),
