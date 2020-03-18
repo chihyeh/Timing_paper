@@ -203,11 +203,11 @@ Department of Physics, Duke University, USA
 
 
 \begin{abstract}
-This paper explores the idea of using timing layers with a few tens of picoseconds resolution for 
-future particle-collision experiments.
-The presented studies show the effect of timing layers on identification 
-of separate Standard Model particles,  as well as illustrate the benefit of using
-such detectors for detection of new event signatures beyound  the Standard Model. 
+The physics potential of timing layers with a few tens of pico-second resolution for 
+calorimeters of future detectors used in particle-collision experiments is explored.
+The presented studies show how such layers can be used for identification 
+of separate particles,  as well as illustrate the benefit of using
+such detectors for detection of new event signatures beyond  the Standard Model. 
 \end{abstract}
 
 \begin{keyword}
@@ -224,33 +224,35 @@ Future experiments, such as CLIC \cite{Linssen:1425915}, International Linear Co
 future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga} will require high precision measurements of particle and jets 
 at large transverse momenta. 
 The usage of timing information for such experiments  can  provide additional 
-information that can be used to improve particle and jet reconstruction, as well as to deal with background events.
-For CLIC and FCC, high-precision time stamping will be essential for
-background rejection and pile-up mitigation.
-For the ILC initiative, timing layers can help dealing with overlap of particle flow objects in high-granular calorimeters.
-From physics point of view, timing layers can be used for detection of long-lived particles and identification of Standard Model particles. 
+information that can be used to improve particle and jet reconstruction, as well as to reduce background events.
+For CLIC and FCC, high-precision time stamping of calorimeter energy deposits will be essential for
+background rejection (i.e. fake energy deposits) and pile-up mitigation.
+Precise timing information can be used to  improve reconstruction of particle flow objects by reducing overlap 
+of energy showers in high-granular calorimeters.
+
+From the physics point of view, timing layers can be used for detection of long-lived particles and identification of Standard Model particles. 
 At this moment, conceptional design reports for future experiments did not fully explore
-the benefits of the time of flight (TOF) measurements with tens-of-picosecond resolutions.
+the benefits of the time of flight (TOF) measurements with tens-of-picosecond resolutions for calorimeters.
 
-
-In this paper we will explore the benefits of the timing layers for Standard Model (SM) measurements of particles and jets, as well as
-investigate the capabilities of timing layers for identification of heavy stable particles which may be produced beyond the 
+In this paper we will investigate the benefits of the timing layers with the resolution in the range
+10~ps -- 1~ns for Standard Model (SM) measurements of particles. 
+The resolution of 1~ns is quite standard for the existing and planned calorimeters, and is only used as a benchmark for comparisons with more challenging  
+10 -- 20~ps  resolution devices. 
+In addition, we investigate the capabilities of timing layers for identification of heavy stable particles which may be produced beyond the 
 Standard Model (BSM). We hope such studies can help shape the requirements for future calorimeters, which were already
-outlined in the CPAD report \cite{ahmed2019new} which states that one critical needs is to develop calorimeters with picosecond 
-time  resolution. 
+outlined in the CPAD report \cite{Ahmed:2019sim} that emphasizes the need to develop fast timing for calorimeter measurements.
   
-
 
 \section{Proposal}
 
 A generic design of hadronic (electromagnetic) calorimeters for future particle collision experiments (HE-LHC, FCC, CLIC, ILC etc.) 
 is based on two main characteristics: (1) high-granularity calorimeters with cells ranged from $3\times 3$ mm$^2$ (for ECAL) to $5\times 5$ cm$^2$  (for HCAL) in sizes.
-(2) timing with nanosecond precision that improves background rejection, vertex association, and detection of new particles. 
-According to the CPAD report \cite{Ahmed:2019sim}, a development of “picosecond time resolution” for future calorimeters is one of the critical needs. 
-Presently. high-granularity calorimeters (with >1 millions channels) with tens of picoseconds resolution represent a 
+(2) timing with a nanosecond precision that improves background rejection, vertex association, and detection of new particles. 
+According to the CPAD report \cite{Ahmed:2019sim}, a development of ``picosecond time resolution'' for future calorimeters is one of the critical needs. 
+Presently,  high-granularity calorimeters (with >1 millions channels) with tens of picoseconds resolution represent a 
 significant challenge due the large cost.
 
-As a part of the HL-LHC upgrade program, CMS and ATLAS experiments are designing high-precision timing detectors with the time resolution of about 30 ps. 
+As a part of the HL-LHC upgrade program, CMS and ATLAS experiments are designing high-precision timing detectors with the time resolution of about 30~ps. 
 They are based on silicon sensors that add an extra ``dimension’’ to event reconstruction. 
 Such timing capabilities are not fully explored for future detectors beyond the HL-LHC upgrade. 
 High-precision timing will be beneficial for new physics searches and b-tagging for all post-LHC experiments. 
@@ -259,21 +261,23 @@ For CLIC and FCC, high-precision time stamping will be essential for background 
 Currently, the baseline designs of the high-granularity ECAL and HCAL of the CLIC/FCC detectors have not been 
 optimized for precision timing in the range of a few tens of picoseconds. 
 The latter is considered as an expensive option for many mullions of channels of these high-granularity detectors. 
-This opens an opportunity to investigate a cost-effective “timing layer” (with the time resolution of smaller than 30~ps) for the post-LHC detectors. 
+This opens an opportunity to investigate a cost-effective ``timing layer'' (with the time resolution of smaller than 30~ps) for the post-LHC detectors. 
 This layer will be installed on front of high-granularity calorimeters, covering both the forward and barrel regions.
 
-In this paper we  will investigate physics advantages for timing layers in the front of calorimeters  
+In this paper we  will investigate physics advantages of installing timing layers in the front of calorimeters  
 of the post-LHC experiments. 
-Typically, thin detectors on front of calorimeters are called ``preshower''. The design goal of such detectors is to count the number of charged
-particles in oder to correct for energy loses. The timing information of ``mips'' ( minimum–ionising particles) is not used for particle identifications. 
+Typically, thin detectors on front of calorimeters are called ``preshower'', and they have been installed for the ZEUS, CDF and ATLAS experiments.
+The design goal of such detectors is to count the number of charged
+particles in order to correct for energy losses. The timing information of ``mips'' (minimum–ionising particles) is 
+not used for particle identifications, nor precise timing. 
 Unlike the standard pre-shower detector, we propose not only count mips, but also reconstruct high-precision timing and the position.
-This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
-but will have a sensor technology and readout which is best suited for mip time stamping (not necessarily for energy reconstruction). 
+This timing detector will have a similar granularity as the proposed high-granularity electromagnetic calorimeters themselves, 
+but will have the sensor technology and the readout which are best suited for time stamping of mip signals (not necessarily for energy reconstruction). 
 Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the second is after the last EM layer (but before
-the HCAL). The two layers of the timing detector allows a robust identification of time by correlating the position and timestamps of the particle passing through
+the HCAL). The two layers of the timing detector allow a robust identification of time by correlating the position and timestamps of the particle passing through
 the ECAL.
 
-In this paper we will explore this idea using full Monte Carlo simulations. 
+In this paper we will explore this idea using semi-analytical approach and Monte Carlo simulations. 
 A schematic representation of the positions of the timing layers for a generic detector geometry is shown in Fig.~\ref{fig:eff_rad}
 In the following, the first timing layer (closest to the interaction point) will be called TL1, while the second timing layer after the electromagnetic calorimeter will be called TL2.
 
@@ -291,24 +295,25 @@ There are several reasons why the second timing layer (TL2) can be useful:
 \begin{itemize}
 
 \item
-It can be used to measure the time of flight between TL2 and TL1, which can be used for identification
+It can be used to measure the time of flight between TL2 and TL1 for identification
 of stable massive particles without known production vertex. This is especially important
 since the current detectors do not have acceptance for models where the production vertex of the stable heavy particles
 is close to the surface of the electromagnetic calorimeter.     
-The distance between TL2 and TL1 is typically 0.2-0.4~m (depending on the design of the electromagnetic calorimeter).
 
-This distance is not significant since a particle traveling with the speed of light can travel between TL1 and TL1 within $\sim 1$~ns. 
-As we will discuss later, this distance is sufficient for heavy particle identification for a 10-20 ps detector. 
+The distance between TL2 and TL1 is typically 0.2 -- 0.4~m (depending on the design of the electromagnetic calorimeter),
+and it is not immediately obvious that such small distance can be used for physics measurements. 
+A particle traveling with the speed of light can cross the distance between TL1 and TL1 within $\sim 1$~ns.
+As we will discuss later, this distance is sufficient for heavy particle identification for 10 -- 20~ps detectors. 
 
 
 \item
-It be useful in cases when a long lived particle (neutral or charged) is produced without precise knowledge of the primary vertex (0,0,0)
+Two layers are useful in the cases when a long lived particle (neutral or charged) is produced without precise knowledge of the primary vertex (0,0,0)
 due to the beam (or pileup) smearing. 
 
 \item
 It allows to correlate the hits with the first layer, and thus provides directionality of the hits. This feature can be useful to
 match the hits with the calorimeter cells and to deal with back-scatter 
-hits arriving (typically at later time) from the hadronic calorimeter. 
+hits which are typically arriving from the hadronic calorimeter at later time. 
 
 \item
 It provides the redundancy for TOF measurements.
@@ -319,9 +324,9 @@ It provides the redundancy for TOF measurements.
 
 The second layer of the timing detector can be justified if the recorded time difference for 
 hits in the electromagnetic showers is not significantly different from that expected from a particle traveling with the speed of light.
-In oder to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
+In order to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
 of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information on hits from the ECAL.
-The ECAL is built from a highly segmented silicon-tungsten  with the transverse cell size of $2 \times 2$~cm.
+The ECAL is built from a highly segmented silicon-tungsten cells with the transverse size of $2 \times 2$~cm.
 The ECAL has 30 layers built from tungsten pads with silicon readout,
 corresponding to 35~X$_{0}$. The first 20 layers use tungsten of 3~mm thickness.
 The last ten layers use tungsten layers of
@@ -330,7 +335,8 @@ The distance between the centers of the last and first ECAL layer is about 240~m
 
 To verify that the time differences between last and first layer of ECAL is close to the time
 required for a particle that travels with the speed of light, and can be neglected for the timing layers that
-have a timing resolution of the order of 1~ns, a sample of single pions was created with 1 and 10~GeV momenta. 
+have a timing resolution of the order of 1~ns, a sample of single pions was created with 1 and 10~GeV momentum. The
+pseudorapidity for all such particles was $\eta=0$ (central region). 
 The particles were reconstructed in the ECAL calorimeter,
 and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
 Only hits that arrive first were considered.
