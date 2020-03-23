@@ -39,6 +39,24 @@ Z.~Ahmed, et~al.,
 \newblock \href {http://arxiv.org/abs/1908.00194} {\path{arXiv:1908.00194}}.
 \newline\urlprefix\url{https://lss.fnal.gov/archive/2019/conf/fermilab-conf-19-487-di-nd-ppd-scd.pdf}
 
+\bibitem{Collaboration:2623663}
+{ATLAS Collaboration}, \href{http://cds.cern.ch/record/2623663}{{Technical
+  Proposal: A High-Granularity Timing Detector for the ATLAS Phase-II
+  Upgrade}}, Tech. Rep. CERN-LHCC-2018-023. LHCC-P-012, CERN, Geneva (Jun
+  2018).
+\newline\urlprefix\url{http://cds.cern.ch/record/2623663}
+
+\bibitem{FERRI2020162159}
+F.~Ferri,
+  \href{http://www.sciencedirect.com/science/article/pii/S0168900219306102}{The
+  cms ecal phase-2 upgrade for high precision energy and timing measurements},
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment 958 (2020) 162159,
+  proceedings of the Vienna Conference on Instrumentation 2019.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.nima.2019.04.113}
+  {\path{doi:https://doi.org/10.1016/j.nima.2019.04.113}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0168900219306102}
+
 \bibitem{Allison2016186}
 J.~Allison, et~al., {Recent developments in Geant4}, Nuclear Instruments and
   Methods in Physics Research A 835 (2016) 186.

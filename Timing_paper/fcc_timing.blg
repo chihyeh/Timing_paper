@@ -6,45 +6,45 @@ Database file #1: biblio.bib
 Warning--empty journal in Behnke:2013xla
 Warning--empty journal in Benedikt:2206376
 Warning--empty pages in Ahmed:2019sim
-You've used 12 entries,
+You've used 14 entries,
             2955 wiz_defined-function locations,
-            769 strings with 7748 characters,
-and the built_in function-call counts, 3556 in all, are:
-= -- 323
-> -- 138
-< -- 0
-+ -- 54
-- -- 42
-* -- 298
-:= -- 506
-add.period$ -- 20
-call.type$ -- 12
-change.case$ -- 12
+            788 strings with 8397 characters,
+and the built_in function-call counts, 4138 in all, are:
+= -- 389
+> -- 146
+< -- 1
++ -- 58
+- -- 44
+* -- 343
+:= -- 587
+add.period$ -- 23
+call.type$ -- 14
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 108
-empty$ -- 395
-format.name$ -- 53
-if$ -- 908
+cite$ -- 17
+duplicate$ -- 129
+empty$ -- 464
+format.name$ -- 55
+if$ -- 1065
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 11
-newline$ -- 55
-num.names$ -- 12
-pop$ -- 76
+int.to.str$ -- 14
+missing$ -- 12
+newline$ -- 64
+num.names$ -- 14
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 231
+skip$ -- 268
 stack$ -- 0
-substring$ -- 76
-swap$ -- 38
-text.length$ -- 0
+substring$ -- 96
+swap$ -- 45
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 18
-width$ -- 14
-write$ -- 125
+while$ -- 21
+width$ -- 16
+write$ -- 148
 (There were 3 warnings)
