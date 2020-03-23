@@ -332,49 +332,50 @@ It provides the redundancy for the calculation of TOF using the distance from th
 The second layer of the timing detector can be justified if the recorded time difference between
 the first and the last ECAL  
 layers of the electromagnetic showers is not significantly different from that expected from a particle traveling with the speed of light.
-If the travel time is significantly affected by large fluctuations in the electromagnetic showers,    
+If the travel time is significantly affected by large fluctuations caused by electromagnetic showers,    
 second timing layer cannot effectively be used.
 
-In order to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
-of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information on hits from the ECAL.
-The ECAL is built from a highly segmented silicon-tungsten cells with the transverse size of $2 \times 2$~cm.
-The ECAL has 30 layers built from tungsten pads with silicon readout,
+In order to verify this point, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
+of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information of the ECAL hits.
+This detector design has an ECAL built from a highly segmented silicon-tungsten cells with the transverse size of $2 \times 2$~cm.
+The ECAL has 30 layers of tungsten pads with silicon readout,
 corresponding to 35~X$_{0}$. The first 20 layers use tungsten of 3~mm thickness.
 The last ten layers use tungsten layers of
 twice the thickness, and thus have half the  sampling fraction.  
 The distance between the centers of the last and first ECAL layer is about 240~mm.  
 
-To verify that the time differences between last and first layer of ECAL is close to the time
+To verify that the time differences between the last and the first ECAL layer is close to the time
 required for a particle that travels with the speed of light, and can be neglected for the timing layers that
-have a timing resolution of the order of 1~ns, a sample of single pions ($\pi^\pm$) was created with 1 and 10~GeV momentum. The
+have a timing resolution of the order of 1~ns, a sample of single pions ($\pi^\pm$) was created with 1 and 10~GeV momentum, respectively. The
 pseudorapidity for all pions was $\eta=0$ (central region). 
 The particles were reconstructed in the ECAL calorimeter,
 and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
-Only hits that arrive first were considered since electronics typically register fastest hits (while slower hits can be saved in pipeline buffers).
+Only the hits arriving first in time were considered since the electronics typically register\footnote{The Monte Carlo studies used in this paper does not include
+simulations of calorimeter electronics.} the fastest hits (while slower hits can be saved in pipeline buffers).
 
 Figure~\ref{fig:timediff} shows the time distribution of first arriving hits 
 for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
 than 1~ns, as expected for the distance of about 20~cm between  the centers of the last and first ECAL layers.
 Therefore, the hits registered by TL1 and TL2 will be simultaneous for the
-standard 1~ns resolution, i.e. well correlated in time and are identified as a single crossing particle.
-If a resolution of the timing layer will be of the order of 10 -- 20~ps, a physics measurement of TOF would be possible.
+standard 1~ns resolution readout. They will be fully correlated in time, and are identified as a single crossing particle.
 
-To check the latter point, 
+If a resolution of the timing layer is of the order of 10 -- 20~ps, a physics measurement of TOF would be possible.
+To check this, 
 Figure~\ref{fig:timediff} shows the hit distribution for (anti)deutrons, denoted as $d^{\pm}$. 
-The distributions are significantly different from the $\pi^{\pm}$ case. On average, 1~GeV
-(anti)deutrons should be measured with the time delay of 0.7 -- 1.4~ns between the last and first layers.
+The distributions are significantly different from the $\pi^{\pm}$ case. According to the simulation, the 1~GeV
+(anti)deutrons should be measured on average with the time delay of 0.7 -- 1.4~ns between the last and first layers.
 The value of 0.7~ns was estimated from the mean position of the Landau distribution used to fit the $d^{\pm}$ 
 curve presented in Figure~\ref{fig:timediff}(a),
-while 1.4~ns was obtained for the mean of this distribution. Even for the most conservative 0.7~ns value, there is an indication that 1~GeV
+while 1.4~ns was obtained from the mean of this distribution. Even for the most conservative 0.7~ns value, there is an indication that 1~GeV
 deutrons can be separated from pions that have 0.5~ns time difference. Such a separation can be observed when using a tens-of-picosecond detector.
-For 10~GeV particles presented in Figure~\ref{fig:timediff}(b), separation between $d^{\pm}$ and $\pi^{\pm}$ cannot be observed.
+For the 10~GeV particles presented in Figure~\ref{fig:timediff}(b), no separation between $d^{\pm}$ and $\pi^{\pm}$ can be observed.
 
 In summary, we have illustrated that a typical difference between TL2 and TL1 (which is approximated by the difference
-between the last and first layer of the electromagnetic calorimeter) is sufficient for particle identification using the TOF.
+between the last and first ECAL layer) is sufficient for particle identification using the TOF.
 As an example, a $d^{\pm}$ can be identified and separated from pions for the momentum less than 1~GeV.
-This means that  heavier than deutron particles can also be identified for a momentum larger than 1~GeV.
-In the following, we will abstract from the full simulations and calculate the kinematic regions  where identification of heavy stable 
-particles is possible.
+This means that  particles heavier than deutron should be identified for a momentum larger than 1~GeV.
+In the following, we will abstract from the Geant4 simulations and calculate the kinematic regions  where the identification of heavy stable 
+particles using timing layers is possible.
  
 
 \begin{figure}
@@ -386,7 +387,7 @@ particles is possible.
    \includegraphics[width=0.45\textwidth]{timeECAL_2layers_10gev1.pdf}\hfill
    }
 \end{center}
-\caption{The difference between time of hits between the last and first layer of ECAL for single pions and deutrons with the transverse momentum 1 and 10 GeV. 
+\caption{The difference between time of hits between the last and first layer of ECAL for single pions and deutrons with a transverse momentum of (a) 1~GeV  and (b) 10 GeV. 
 Only first (fastest) hits were considered to calculate the difference in TOF. }
 \label{fig:timediff}
 \end{figure}
@@ -416,7 +417,7 @@ It was illustrated
 how such layers can be used for single particle identification and
 identification of heavy long-lived particles in the context of the dark QCD model.
 It was shown that the timing layers lead to a significant benefit for reconstruction of heavy long-lived particles 
-in region of $c\tau$ and momentum where track measurements have low reconstruction acceptance.
+in the region of $c\tau$ and momentum where track measurements have low reconstruction acceptance.
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%% references %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
