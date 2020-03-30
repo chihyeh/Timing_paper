@@ -280,8 +280,9 @@ not used for particle identifications, nor precise timing.
 Unlike the standard preshower detectors, we propose to not only count MIP signals, but also reconstruct high-precision timing and the position of the MIPs.
 This timing detector will have a similar granularity as the proposed high-granularity electromagnetic calorimeters, 
 but will have the sensor technology and the readout that are best suited for time stamping of MIP signals.
-Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the other is after the last ECAL layer (but before
-the HCAL). The two layers of the timing detector allow a robust identification of time stamps by correlating the position and time of the particles passing through
+Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the other - after the 
+last ECAL layer (but before
+the HCAL first layer). The two timing detectors allow a robust identification of time stamps by correlating the position and time of the particles passing through
 the ECAL.
 
 In this paper we will explore this idea using a semi-analytical approach and Monte Carlo simulations. 
@@ -292,7 +293,8 @@ In the following, the first timing layer (closest to the interaction point) will
 \begin{center}
    \includegraphics[width=0.8\textwidth]{timing_layer.pdf}\hfill
 \end{center}
-\caption{An example of positions of the thin timing layers for a generic detector. The thin timing layers  will enclose the electromagnetic calorimeter, allowing 
+\caption{An example of positions of the thin timing layers for a generic detector. The timing detectors  enclose the 
+electromagnetic calorimeter, allowing 
 a reliable reconstruction of the  MIP signals with a timing resolution of the order of 10~ps.}
 \label{fig:eff_rad}
 \end{figure}
@@ -306,17 +308,17 @@ There are several reasons why the second timing layer (TL2) can be useful:
 It can be used to measure the TOF between TL2 and TL1 for identification
 of stable massive particles without known production vertex. This is especially important
 for the BSM models predicting stable heavy particles
-decaying close to the surface of the electromagnetic calorimeter.     
+decaying close to the surface of the electromagnetic calorimeter, or
+in the situations when tracks cannot be used to establish the production origin for neutral heavy particles.
+For proton colliders,  the second layer can mitigate situations when the primary vertex position  
+is smeared due to large pileup.
+
 
 For a typical ECAL based on the silicon technology, the distance between TL2 and TL1 is  0.2 -- 0.4~m (depending on the calorimeter design).
 It is not immediately obvious that such a small distance can be used for physics measurements. 
 A particle traveling with the speed of light can cross the distance between TL1 and TL1 within $\sim 1$~ns.
 As we will discuss later, this distance is sufficient to provide a large acceptance 
 for heavy particle identification  assuming a 10 -- 20~ps detectors. 
-
-\item
-The second layer is  useful in the cases when a long-lived particle (neutral or charged) is produced without precise knowledge of the primary vertex (0,0,0)
-due to the beam (or pileup) smearing. 
 
 \item
 It allows to correlate the hits with the first layer, and thus provides directionality of the hits. This feature can be useful to
