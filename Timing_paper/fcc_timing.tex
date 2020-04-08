@@ -101,8 +101,8 @@
 
 \pdfinfo{
    /Author (Chekanov et al)
-   /Title  (Studies of granularity of a hadronic calorimeter for tens-of-TeV jets  at a 100 TeV pp collider)
-   /CreationDate (D:2017)
+   /Title  (Physics potential of timing layers for future detectors)
+   /CreationDate (D:2020)
    /Subject (PDFLaTeX)
    /Keywords (PDF;LaTeX)
 }
@@ -165,6 +165,9 @@
  basewidth={0.5em,0.5em}
 }
 
+% linenumbers
+\linenumbers
+
 
 \begin{frontmatter}
 
@@ -172,45 +175,42 @@
 Physics potential of timing layers for future detectors}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author[add3]{C.-H. Yeh}
-\ead{a9510130375@gmail.com}
-
 \author[add1]{S.V.~Chekanov}
 \ead{chekanov@anl.gov}
 
 \author[addDuke]{A.V.~Kotwal}
 \ead{ashutosh.kotwal@duke.edu}
 
-\author[add2]{N.V.~Tran}
-\ead{ntran@fnal.gov}
+\author[add3]{C.-H. Yeh}
+\ead{a9510130375@gmail.com}
+
 
 \author[add3]{S.-S.~Yu}
 \ead{syu@cern.ch}
+
+\address[add1]{
+HEP Division, Argonne National Laboratory,
+9700 S.~Cass Avenue,
+Argonne, IL 60439, USA.
+}
+
 
 \address[add3]{
 Department of Physics and Center for High Energy and High Field Physics, 
 National Central University, Chung-Li, Taoyuan City 32001, Taiwan
 }
 
-\address[add1]{
-HEP Division, Argonne National Laboratory,
-9700 S.~Cass Avenue,
-Argonne, IL 60439, USA. 
-}
-
 \address[addDuke]{
 Department of Physics, Duke University, USA
 }
 
-\address[add2]{
-Fermi National Accelerator Laboratory
-}
-
-
-
 
 \begin{abstract}
-
+The physics potential of timing layers with a few tens of pico-second resolution for 
+calorimeters of future detectors in collider experiments is explored.
+The presented studies show how such layers can be used for identification 
+of separate particles, and  illustrate the benefit of detecting  
+new event signatures beyond the standard model. 
 \end{abstract}
 
 \begin{keyword}
@@ -224,62 +224,78 @@ Fermi National Accelerator Laboratory
 \section{Introduction}
 
 Future experiments, such as CLIC \cite{Linssen:1425915}, International Linear Collider (ILC) \cite{Behnke:2013xla}, high-energy LHC (HE-LHC),
-future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga} will require high precision measurements of particle and jets 
+future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga} 
+will require high precision measurements of particles and jets 
 at large transverse momenta. 
 The usage of timing information for such experiments  can  provide additional 
-information that can be used to improve particle and jet reconstruction, as well as to deal with background events.
-For CLIC and FCC, high-precision time stamping will be essential for
-background rejection and pile-up mitigation.
-For the ILC initiative, timing layers can help dealing with overlap of particle flow objects in high-granular calorimeters.
-From physics point of view, timing layers can be used for detection of long-lived particles and identification of Standard Model particles. 
-At this moment, conceptional design reports for these future experiments did not fully explore
-the benefits of the time of flight (TOF) measurements with tens-of-picosecond resolutions.
+information that can be used to improve particle and jet reconstruction, as well as to reduce background events.
+For example, high-precision timing will be beneficial for b-tagging for all post-LHC experiments. 
+For CLIC and FCC, high-precision time stamping of calorimeter energy deposits will be essential for
+background rejection (i.e. fake energy deposits) and pile-up mitigation.
+Precise timing information is important for improving reconstruction of particle flow objects by reducing overlap 
+of energy showers in highly-granular calorimeters.
 
-In this paper we will explore the benefits of the timing layers for Standard Model (SM) measurements of particles and jets, as well as
-investigate the capabilities of timing layers for identification of heavy stable particles which may be produced beyond the Standard Model (BSM).
+From the physics point of view, timing layers can be used for detection of long-lived particles and identification 
+of standard model (SM) particles. 
+At this moment, conceptional design reports for future experiments have not yet fully explored 
+the benefits of the time of flight (TOF) measurements with tens-of-picosecond resolutions for calorimeters.
 
-
+In this paper we will investigate the benefits of the timing layers with the resolution in the range
+10~ps -- 1~ns for identification of SM particles. 
+The resolution of 1~ns is standard for the existing and planned calorimeters \cite{Linssen:1425915,Behnke:2013xla,Benedikt:2206376,Tang:2015qga}, 
+and is only used as a benchmark for comparisons with more challenging  
+10 -- 20~ps  resolution devices. 
+In addition, we investigate the capabilities of timing layers for identification of heavy stable particles which may be produced beyond the 
+standard model (BSM). We hope such studies can help shape the requirements for future calorimeters, which were already
+outlined in the CPAD report \cite{Ahmed:2019sim} that emphasized the need to develop fast timing readout for calorimeter measurements.
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proposal}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 A generic design of hadronic (electromagnetic) calorimeters for future particle collision experiments (HE-LHC, FCC, CLIC, ILC etc.) 
-is based on two main characteristics: (1) high-granularity calorimeters with cells ranged from $3\times 3$ mm$^2$ (for ECAL) to $5\times 5$ cm$^2$  (for HCAL) in sizes.
-(2) timing with nanosecond precision that improves background rejection, vertex association, and detection of new particles. 
-According to the CPAD report \cite{Ahmed:2019sim}, a development of “picosecond time resolution” for future calorimeters is one of the critical needs. 
-Presently. high-granularity calorimeters (with >1 millions channels) with tens of picoseconds resolution represent a 
-significant challenge due the large cost.
+is based on two main characteristics: (1) high-granularity  electromagnetic (ECAL) and hadronic (HCAL) 
+calorimeters with cells ranged from $3\times 3$~mm$^2$ to $5\times 5$~cm$^2$.
+(2) timing with a nanosecond precision that improves background rejection, vertex association, and detection of new particles. 
+According to the CPAD report \cite{Ahmed:2019sim}, a development of ``picosecond time resolution'' for future calorimeters is one of the critical needs. 
+Presently,  high-granularity calorimeters with $>1$ millions channels and with tens of pico-second resolution represent a 
+significant challenge due to the large cost.
 
-As a part of the HL-LHC upgrade program, CMS and ATLAS experiments are designing high-precision timing detectors with the time resolution of about 30 ps. 
-They are based on silicon sensors that add an extra ``dimension’’ to event reconstruction. 
-Such timing capabilities are not fully explored for future detectors beyond the HL-LHC upgrade. 
-High-precision timing will be beneficial for new physics searches and b-tagging for all post-LHC experiments. 
-For CLIC and FCC, high-precision time stamping will be essential for background rejection and pile-up mitigation. 
+As a part of the HL-LHC upgrade program, CMS and ATLAS experiments are designing high-precision timing detectors with the time resolution of about 30~ps \cite{Collaboration:2623663,FERRI2020162159}. They are based on silicon sensors that add an extra ``dimension’’ to event reconstruction. 
 
-Currently, the baseline designs of the high-granularity ECAL and HCAL of the CLIC/FCC detectors have not been 
+As discussed above, such timing capabilities have not been fully explored for future detectors beyond the HL-LHC upgrade. 
+In particular, the baseline designs of the ECAL and HCAL of the CLIC/FCC detectors have not been 
 optimized for precision timing in the range of a few tens of picoseconds. 
-The latter is considered as an expensive option for many mullions of channels of these high-granularity detectors. 
-This opens an opportunity to investigate a cost-effective “timing layer” (with the time resolution of smaller than 30~ps) for the post-LHC detectors. 
-This layer will be installed on front of high-granularity calorimeters, covering both the forward and barrel regions.
+The latter is considered as an expensive option for many millions of the channels of these highly granular detectors. 
+This opens an opportunity to investigate a cost-effective ``timing layer'' (with the time resolution of smaller than 30~ps) for the post-LHC detectors. 
+This layer will be installed in front of high-granularity calorimeters, covering both the forward and barrel regions.
 
-In this paper we  will investigate physics advantages for timing layers in the front of calorimeters  
+In this paper we  will investigate the physics advantages of installing timing layers in the front of calorimeters  
 of the post-LHC experiments. 
-Typically, thin detectors on front of calorimeters are called ``preshower''. The design goal of such detectors is to count the number of charged
-particles in oder to correct for energy loses. The timing information of ``mips'' ( minimum–ionising particles) is not used for particle identifications. 
-Unlike the standard pre-shower detector, we propose not only count mips, but also reconstruct high-precision timing and the position.
-This timing detector will have a similar granularity as the proposed high-granularity EM calorimeters themselves, 
-but will have a sensor technology and readout which is best suited for mip time stamping (not necessarily for energy reconstruction). 
-Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the second is after the last EM layer (but before
-the HCAL). The two layers of the timing detector allows a robust identification of time by correlating the position and timestamps of the particle passing through
+Typically, thin detectors in front of calorimeters are called ``preshower'', and they have been previously installed for the ZEUS, CDF, ATLAS and CMS experiments.
+The design goal of such detectors is to count the number of charged
+particles in order to correct for energy losses. The timing information of ``MIP'' (minimum ionizing particles) is 
+not used for particle identifications, nor precise timing. 
+Unlike the standard preshower detectors, we propose to not only count MIP signals, but also reconstruct high-precision timing and the position of the MIPs.
+This timing detector will have a similar granularity as the proposed high-granularity electromagnetic calorimeters, 
+but will have the sensor technology and the readout that are best suited for time stamping of MIP signals.
+Our proposal is to enclose the EM detectors with two timing layers, one - before the first EM layer, and the other - after the 
+last ECAL layer (but before
+the HCAL first layer). The two timing detectors allow a robust identification of time stamps by correlating the position and time of the particles passing through
 the ECAL.
 
-In this paper we will explore this idea using full Monte Carlo simulations. 
-A schematic representation of the positions of the timing layers for a generic detector geometry is shown in Fig.~\ref{fig:eff_rad}
+In this paper we will explore this idea using a semi-analytical approach and Monte Carlo simulations. 
+A schematic representation of the positions of the timing layers for a generic detector geometry is shown in Fig.~\ref{fig:eff_rad}. 
 In the following, the first timing layer (closest to the interaction point) will be called TL1, while the second timing layer after the electromagnetic calorimeter will be called TL2.
 
 \begin{figure}
 \begin{center}
    \includegraphics[width=0.8\textwidth]{timing_layer.pdf}\hfill
 \end{center}
-\caption{An example of positions of the thin timing layers for a generic detector. The thin timing layers  will enclose the electromagnetic calorimeter, allow a reliable reconstruction of the  mip signals with a timing resolution of the order of 10~ps.}
+\caption{An example of positions of the thin timing layers for a generic detector. The timing detectors  enclose the 
+electromagnetic calorimeter, allowing 
+a reliable reconstruction of the  MIP signals with a timing resolution of the order of 10~ps.}
 \label{fig:eff_rad}
 \end{figure}
 
@@ -289,71 +305,79 @@ There are several reasons why the second timing layer (TL2) can be useful:
 \begin{itemize}
 
 \item
-It can be used to measure the time of flight between TL2 and TL1, which can be used for identification
+It can be used to measure the TOF between TL2 and TL1 for identification
 of stable massive particles without known production vertex. This is especially important
-since the current detectors do not have acceptance for models where the production vertex of the stable heavy particles
-is close to the surface of the electromagnetic calorimeter.     
-The distance between TL2 and TL1 is typically 0.2-0.4~m (depending on the design of the electromagnetic calorimeter).
+for the BSM models predicting stable heavy particles
+decaying close to the surface of the electromagnetic calorimeter, or
+in the situations when tracks cannot be used to establish the production origin for neutral heavy particles.
+For proton colliders,  the second layer can mitigate situations when the primary vertex position  
+is smeared due to large pileup.
 
-This distance is not significant since a particle traveling with the speed of light can travel between TL1 and TL1 within $\sim 1$~ns. 
-As we will discuss later, this distance is sufficient for heavy particle identification for a 10-20 ps detector. 
 
-
-\item
-It be useful in cases when a long lived particle (neutral or charged) is produced without precise knowledge of the primary vertex (0,0,0)
-due to the beam (or pileup) smearing. 
+For a typical ECAL based on the silicon technology, the distance between TL2 and TL1 is  0.2 -- 0.4~m (depending on the calorimeter design).
+It is not immediately obvious that such a small distance can be used for physics measurements. 
+A particle traveling with the speed of light can cross the distance between TL1 and TL1 within $\sim 1$~ns.
+As we will discuss later, this distance is sufficient to provide a large acceptance 
+for heavy particle identification  assuming a 10 -- 20~ps detectors. 
 
 \item
 It allows to correlate the hits with the first layer, and thus provides directionality of the hits. This feature can be useful to
 match the hits with the calorimeter cells and to deal with back-scatter 
-hits arriving (typically at later time) from the hadronic calorimeter. 
+hits which are typically arriving from the hadronic calorimeter at later time. 
 
 \item
-It provides the redundancy for TOF measurements.
+It provides the redundancy for the calculation of TOF using the distance from the interaction point which can be determined using tracks.
 
 \end{itemize}
 
 
+The second layer of the timing detector can be justified if the recorded time difference between
+the first and the last ECAL  
+layers of the electromagnetic showers is not significantly different from that expected from a particle traveling with the speed of light.
+If the travel time is significantly affected by large fluctuations caused by electromagnetic showers,    
+second timing layer cannot effectively be used.
 
-The second layer of the timing detector can be justified if the recorded time difference for 
-hits in the electromagnetic showers is not significantly different from that expected from a particle traveling with the speed of light.
-In oder to verify this, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
-of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information on hits from the ECAL.
-The ECAL is built from a highly segmented silicon-tungsten  with the transverse cell size of $2 \times 2$~cm.
-The ECAL has 30 layers built from tungsten pads with silicon readout,
+In order to verify this point, we used a full Geant4 (version 10.3)~\cite{Allison2016186} simulation 
+of the SiFCC detector \cite{Chekanov:2016ppq} that allows to use the information of the ECAL hits.
+This detector design has an ECAL built from a highly segmented silicon-tungsten cells with the transverse size of $2 \times 2$~cm.
+The ECAL has 30 layers of tungsten pads with silicon readout,
 corresponding to 35~X$_{0}$. The first 20 layers use tungsten of 3~mm thickness.
 The last ten layers use tungsten layers of
 twice the thickness, and thus have half the  sampling fraction.  
 The distance between the centers of the last and first ECAL layer is about 240~mm.  
 
-To verify that the time differences between last and first layer of ECAL is close to the time
+To verify that the time differences between the last and the first ECAL layer is close to the time
 required for a particle that travels with the speed of light, and can be neglected for the timing layers that
-have a timing resolution of the order of 1~ns, a sample of single pions was created with 1 and 10~GeV momenta. 
+have a timing resolution of the order of 1~ns, a sample of single pions ($\pi^\pm$) was created with 1 and 10~GeV momentum, respectively. The
+pseudorapidity for all pions was $\eta=0$ (central region). 
 The particles were reconstructed in the ECAL calorimeter,
 and the time difference $\Delta T= T_{\mathrm{last}}-T_{\mathrm{first}}$ of the hits between the last and first ECAL layers was calculated.
-Only hits that arrive first were considered.
+Only the hits arriving first in time were considered since the electronics typically register\footnote{The Monte Carlo studies used in this paper does not include
+simulations of calorimeter electronics.} the fastest hits (while slower hits can be saved in pipeline buffers).
 
-Figure~\ref{fig:timediff} shows the time distribution for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
-than 1~ns, as expected for the distance of about 20~cm between  the centers of the last and first layers.
-%\footnote{The precision with which the simulations were performed are about 0.2-0.3~ns}. More importantly, the RMS of these distributions are significantly smaller than the 10~ns. 
-Therefore, hits will be simultaneous for the
-standard 1~ns resolution, i.e. well correlated in time and are identified as a single crossing particle.
-If a resolution of the timing layer will be of the order of 10 -- 20~ps, a physics measurement of TOF would be possible.
+Figure~\ref{fig:timediff} shows the time distribution of first arriving hits 
+for 1 and 10 GeV pions. It can be seen that the peak positions of the distributions are smaller
+than 1~ns, as expected for the distance of about 20~cm between  the centers of the last and first ECAL layers.
+Therefore, the hits registered by TL1 and TL2 will be simultaneous for the
+standard 1~ns resolution readout. They will be fully correlated in time, and are identified as a single crossing particle.
 
-Figure~\ref{fig:timediff} also shows the hit distribution for (anti)deutrons, denoted as $d^{\pm}$. The distribution are significantly different from $\pi^{\pm}$. On average, 1 GeV
-(anti)deutrons should be measured with the time delay of 0.7 -- 1.4~ns between the last and first layers.
+If a resolution of the timing layer is of the order of 10 -- 20~ps, a physics measurement of TOF would be possible.
+To check this, 
+Figure~\ref{fig:timediff} shows the hit distribution for (anti)deuterons, denoted as $d^{\pm}$. 
+The distributions are significantly different from the $\pi^{\pm}$ case. According to the simulation, the 1~GeV
+(anti)deuterons should be measured on average with the time delay of 0.7 -- 1.4~ns between the last and first layers.
 The value of 0.7~ns was estimated from the mean position of the Landau distribution used to fit the $d^{\pm}$ 
 curve presented in Figure~\ref{fig:timediff}(a),
-while 1.4~ns was obtained for the mean of this distribution. Even for the most conservative 0.7~ns value, there is an indication that 1~GeV
-deutrons can be separated from pions that have 0.5~ns time difference. Such a separation can be observed when using a tens-of-picosecond detector.
-For 10~GeV particles presented in Figure~\ref{fig:timediff}(b), separation between $d^{\pm}$ and $\pi^{\pm}$ cannot be observed.
+while 1.4~ns was obtained from the mean of this distribution. Even for the most conservative 0.7~ns value, there is an indication that 1~GeV
+deuterons can be separated from pions that have 0.5~ns time difference. Such a separation can be observed when using a tens-of-picosecond detector.
+For the 10~GeV particles presented in Figure~\ref{fig:timediff}(b), no separation between $d^{\pm}$ and $\pi^{\pm}$ can be observed.
 
 In summary, we have illustrated that a typical difference between TL2 and TL1 (which is approximated by the difference
-between the last and first layer of the electromagnetic calorimeter) is sufficient for particle identification using the TOF.
+between the last and first ECAL layer) is sufficient for particle identification using the TOF.
 As an example, a $d^{\pm}$ can be identified and separated from pions for the momentum less than 1~GeV.
-This means that  heavier than deutron particles can also be identified for a momentum larger than 1~GeV.
-In the following, we will abstract from the full simulations and calculate the kinematic regions  where identification of heavy stable 
-particles is possible.
+This means that  particles heavier than deuterons should be identified for a momentum larger than 1~GeV.
+In the following, we will abstract from the Geant4 simulations and calculate the kinematic regions  where the identification of heavy stable 
+particles using timing layers is possible.
  
 
 \begin{figure}
@@ -365,7 +389,7 @@ particles is possible.
    \includegraphics[width=0.45\textwidth]{timeECAL_2layers_10gev1.pdf}\hfill
    }
 \end{center}
-\caption{The difference between time of hits between the last and first layer of ECAL for single pions and deutrons with the transverse momentum 1 and 10 GeV. 
+\caption{The difference between time of hits between the last and first layer of ECAL for single pions and deuterons  with a transverse momentum of (a) 1~GeV  and (b) 10 GeV. 
 Only first (fastest) hits were considered to calculate the difference in TOF. }
 \label{fig:timediff}
 \end{figure}
@@ -388,8 +412,14 @@ Only first (fastest) hits were considered to calculate the difference in TOF. }
 \section{Summary}
 
 This paper discusses the benefits of the timing layers positioned in front of the hadronic calorimeters.
-We have illustrated how such layers can be used for single particle identification, jets measurements, and
+Using the full Geant4 simulations and a semi-analytic approach,
+the figures of merits for identification of single particles
+using timing layers with resolutions of 10~ps -- 1~ns were calculated.
+It was illustrated 
+how such layers can be used for single particle identification and
 identification of heavy long-lived particles in the context of the dark QCD model.
+It was shown that the timing layers lead to a significant benefit for reconstruction of heavy long-lived particles 
+in the region of $c\tau$ and momentum where track measurements have low reconstruction acceptance.
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%% references %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
